@@ -1,0 +1,2093 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-02-14 13:08+0530\n"
+"PO-Revision-Date: 2018-02-14 13:13+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-hf-subscription-data-meta-box.php:43
+#, fuzzy
+msgid "Customer:"
+msgstr ""
+"Le sottoscrizioni verranno visualizzati qui una volta acquistato da un "
+"cliente."
+
+#: admin/class-hf-subscription-data-meta-box.php:96
+#, fuzzy
+msgid "Billing Details"
+msgstr "Dettagli di fatturazione"
+
+#: admin/class-hf-subscription-data-meta-box.php:96
+#, fuzzy
+msgid "Load billing address"
+msgstr "Carica indirizzo di fatturazione"
+
+#: admin/class-hf-subscription-data-meta-box.php:127
+#, php-format
+msgid "Gateway ID: [%s]"
+msgstr "ID di gateway: [%s]"
+
+#: admin/class-hf-subscription-data-meta-box.php:158
+#, fuzzy
+msgid "Shipping Details"
+msgstr "Dettagli Spedizione"
+
+#: admin/class-hf-subscription-data-meta-box.php:160
+#, fuzzy
+msgid "Copy from billing"
+msgstr "Copia dalla fatturazione"
+
+#: admin/class-hf-subscription-data-meta-box.php:161
+#, fuzzy
+msgid "Load shipping address"
+msgstr "Carica indirizzo di spedizione"
+
+#: admin/class-hf-subscription-data-meta-box.php:169
+#: admin/class-hf-subscription-data-meta-box.php:171
+#, fuzzy
+msgid "Address"
+msgstr "Indirizzo"
+
+#: admin/class-hf-subscription-data-meta-box.php:171
+#, fuzzy
+msgid "No shipping address set."
+msgstr "Nessun indirizzo di spedizione impostato."
+
+#: admin/class-hf-subscription-data-meta-box.php:193
+#, fuzzy
+msgid "Customer Note:"
+msgstr "Nota del cliente:"
+
+#: admin/class-hf-subscription-data-meta-box.php:285
+#, php-format
+msgid "Error updating some information: %s"
+msgstr "Errore durante l'aggiornamento di alcune informazioni: %s"
+
+#: admin/class-hf-subscription-related-meta-box.php:39
+#: admin/class-hf-woocommerce-subscription-admin.php:394
+#: admin/class-hf-woocommerce-subscription-admin.php:506
+#: admin/class-hf-woocommerce-subscription-admin.php:1432
+#: public/templates/myaccount/related-subscriptions.php:13
+msgid "Subscription"
+msgstr "Sottoscrizione"
+
+#: admin/class-hf-subscription-related-meta-box.php:59
+msgid "Resubscribed Subscription"
+msgstr "Abbonamento risottoscritto"
+
+#: admin/class-hf-subscription-related-meta-box.php:67
+msgid "Initial Subscription"
+msgstr "Abbonamento iniziale"
+
+#: admin/class-hf-subscription-related-meta-box.php:75
+#: admin/class-hf-woocommerce-subscription-admin.php:1458
+msgid "Parent Order"
+msgstr "Ordine Genitore"
+
+#: admin/class-hf-subscription-related-meta-box.php:84
+#: admin/class-hf-woocommerce-subscription-admin.php:1454
+msgid "Renewal Order"
+msgstr "Ordine di rinnovo"
+
+#: admin/class-hf-subscription-related-meta-box.php:113
+#: admin/class-hf-woocommerce-subscription-admin.php:696
+msgid "Y/m/d g:i:s A"
+msgstr "Y/m/d g:i:s A"
+
+#: admin/class-hf-subscription-related-meta-box.php:116
+msgid "Unpublished"
+msgstr "Inedito"
+
+#: admin/class-hf-subscription-related-meta-box.php:139
+#, fuzzy
+msgid "Order Number "
+msgstr "Fattura per l'ordine di rinnovo {order_number}"
+
+#: admin/class-hf-subscription-related-meta-box.php:140
+#, fuzzy
+msgid "Relationship"
+msgstr "Situazione Sentimentale"
+
+#: admin/class-hf-subscription-related-meta-box.php:141
+#, fuzzy
+msgid "Order Date"
+msgstr "Data ordine: %s"
+
+#: admin/class-hf-subscription-related-meta-box.php:142
+#, fuzzy
+msgid "Order Status"
+msgstr "Stato dell'ordine"
+
+#: admin/class-hf-subscription-related-meta-box.php:143
+#, fuzzy
+msgid "Order Total"
+msgstr "Totale Ordine"
+
+#: admin/class-hf-subscription-schedule-meta-box.php:23
+#, fuzzy
+msgid "Recurrence:"
+msgstr "Ripetizione"
+
+#: admin/class-hf-subscription-schedule-meta-box.php:32
+msgid "Billing Period"
+msgstr "Periodo di fatturazione"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:78
+#, fuzzy
+msgid ""
+"Deleting this order will also delete the subscriptions purchased with the "
+"order."
+msgstr ""
+"L'eliminazione di questo ordine eliminerà anche gli abbonamenti acquistati "
+"con l'ordine."
+
+#: admin/class-hf-woocommerce-subscription-admin.php:90
+msgid "Enter the new period, either day, week, month or year:"
+msgstr "Inserisci il  nuovo periodo: giorno, settimana, mese o anno:"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:91
+msgid "Enter a new length (e.g. 5):"
+msgstr "Inserisci una nuova durata (es. 5):"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:92
+msgid ""
+"Enter a new interval as a single number (e.g. to charge every 2nd month, "
+"enter 2):"
+msgstr ""
+"Inserisci un nuovo intervallo in numero intero (es. per addebitare ogni 2 "
+"mesi, inserisci 2):"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:96
+msgid ""
+"You are about to trash one or more orders which contain a subscription.\n"
+"\n"
+"Trashing the orders will also trash the subscriptions purchased with these "
+"orders."
+msgstr ""
+"Stai per spostare nel cestino uno o più ordini che contengono una "
+"sottoscrizione.\n"
+"\n"
+"Spostando gli ordini nel cestino sposterai anche le sottoscrizioni "
+"acquistate con questi ordini."
+
+#: admin/class-hf-woocommerce-subscription-admin.php:113
+msgid ""
+"Warning: Deleting a user will also delete the user's subscriptions. The "
+"user's orders will remain but be reassigned to the 'Guest' user.\n"
+"\n"
+"Do you want to continue to delete this user and any associated subscriptions?"
+msgstr ""
+"Attenzione: L'eliminazione di un utente eliminerà anche gli abbonamenti "
+"degli utenti. Gli ordini del utente rimarranno ma saranno riassegnati "
+"all'utente 'Guest'. Si desidera continuare a cancellare questo utente e "
+"qualsiasi abbonamento associato?"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:132
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:133
+msgid "Support"
+msgstr "Assistenza"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:134
+msgid "Review"
+msgstr "Recensione"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:151
+#: admin/class-hf-woocommerce-subscription-admin.php:393
+#: admin/class-hf-woocommerce-subscription-admin.php:406
+msgid "HF Subscriptions"
+msgstr "Sottoscrizioni di HF"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:166
+msgid "Manage Text"
+msgstr "Gestire il testo"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:172
+msgid "My Account Tab Title"
+msgstr "Titolo della scheda Account personale"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:173
+msgid "My Account Tab Title for subscription listing page."
+msgstr "Mio Account scheda titolo per inserzione pagina di sottoscrizione."
+
+#: admin/class-hf-woocommerce-subscription-admin.php:176
+#: admin/class-hf-woocommerce-subscription-admin.php:185
+#: public/templates/myaccount/subscription-account-view.php:62
+#: public/templates/myaccount/subscription-account-view.php:75
+msgid "Subscriptions"
+msgstr "Abbonamenti"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:181
+msgid "My Account Tab Text"
+msgstr "Mio Account scheda testo"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:182
+msgid "My Account Tab Text for subscription listing page."
+msgstr "Mio Account scheda testo per inserzione pagina di sottoscrizione."
+
+#: admin/class-hf-woocommerce-subscription-admin.php:190
+msgid "Add to Cart Button Text"
+msgstr "Testo del pulsante Aggiungi al Carrello"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:191
+msgid "Add to Cart Button Text on product page."
+msgstr "Aggiungere al carrello pulsante testo sulla pagina prodotto."
+
+#: admin/class-hf-woocommerce-subscription-admin.php:194
+#: admin/class-hf-woocommerce-subscription-admin.php:203
+#: includes/class-subscriptions-product.php:20
+#: includes/class-subscriptions-product.php:22
+#: includes/components/class-hf-product-subscription.php:27
+#: includes/components/class-hf-product-subscription.php:29
+msgid "Subscribe"
+msgstr "Iscriviti"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:199
+msgid "Place Order Button Text"
+msgstr "Testo del pulsante \"Crea Ordine\""
+
+#: admin/class-hf-woocommerce-subscription-admin.php:200
+msgid ""
+"Place Order Button Text in checkout Page when an order contains a "
+"subscription."
+msgstr ""
+"Testo del pulsante ordine posto alla cassa pagina quando un ordine contiene "
+"un abbonamento."
+
+#: admin/class-hf-woocommerce-subscription-admin.php:210
+msgid "Other"
+msgstr "Altro"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:217
+msgid "Allow Mixed Checkout"
+msgstr "Checkout misto"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:218
+#, fuzzy
+msgid ""
+"Allow subscription products and normal products to be purchased together."
+msgstr ""
+"Consentire prodotti in abbonamento e prodotti normali ad essere acquistati "
+"insieme."
+
+#: admin/class-hf-woocommerce-subscription-admin.php:238
+msgid "Simple subscription"
+msgstr "Abbonamento semplice"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:256
+#: admin/class-hf-woocommerce-subscription-admin.php:269
+#, php-format
+msgid "%sth"
+msgstr "%s°"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:260
+#, php-format
+msgid "%sst"
+msgstr "%s°"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:263
+#, php-format
+msgid "%snd"
+msgstr "%s°"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:266
+#, php-format
+msgid "%srd"
+msgstr "%s°"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:395
+msgid "Add Subscription"
+msgstr "Aggiungi Abbonamento"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:396
+msgid "Add New Subscription"
+msgstr "Aggiungi Nuovo Abbonamento"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:397
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:38
+msgid "Edit"
+msgstr "Pulsante nuovo/modifica..."
+
+#: admin/class-hf-woocommerce-subscription-admin.php:398
+msgid "Edit Subscription"
+msgstr "Modifica Abbonamento"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:399
+msgid "New Subscription"
+msgstr "Nuovo Abbonamento"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:400
+#: admin/class-hf-woocommerce-subscription-admin.php:401
+msgid "View Subscription"
+msgstr "Vedi Sottoscrizione"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:402
+msgid "Search Subscriptions"
+msgstr "Cerca abbonamenti"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:403
+msgid "No Subscriptions found"
+msgstr "Nessun Abbonamento trovato"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:404
+msgid "No Subscriptions found in trash"
+msgstr "Nessun Abbonamento trovato nel cestino"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:405
+msgid "Parent Subscriptions"
+msgstr "Abbonamenti Genitore"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:408
+msgid "This is where subscriptions are stored."
+msgstr "Qui è dove sono memorizzatti gli Abbonamenti."
+
+#: admin/class-hf-woocommerce-subscription-admin.php:469
+#: includes/class-date-time-functions.php:32
+msgid "Never expire"
+msgstr "Mai"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:473
+#: includes/class-date-time-functions.php:36
+msgid "1 day"
+msgstr "1 giorno"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:477
+#: includes/class-date-time-functions.php:40
+msgid "1 week"
+msgstr "1 mese"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:481
+#: includes/class-date-time-functions.php:44
+msgid "1 month"
+msgstr "1 mese"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:485
+#: includes/class-date-time-functions.php:48
+msgid "1 year"
+msgstr "1 year"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:507
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:120
+#: public/templates/myaccount/related-subscriptions.php:14
+#: public/templates/myaccount/related-subscriptions.php:28
+#: public/templates/myaccount/subscriptions.php:25
+#: public/templates/myaccount/view-subscription.php:23
+msgid "Status"
+msgstr "Stato"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:508
+msgid "Items"
+msgstr "Articoli"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:509
+#: public/templates/myaccount/related-subscriptions.php:16
+#: public/templates/myaccount/related-subscriptions.php:34
+#: public/templates/myaccount/subscriptions.php:27
+#: public/templates/myaccount/subscriptions.php:52
+#: public/templates/myaccount/view-subscription.php:91
+msgid "Total"
+msgstr "Totale"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:510
+#: includes/subscription-common-functions.php:586
+#: public/templates/myaccount/view-subscription.php:27
+msgid "Start Date"
+msgstr "Data di Inizio"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:511
+#: includes/subscription-common-functions.php:587
+#: public/templates/myaccount/related-subscriptions.php:15
+#: public/templates/myaccount/related-subscriptions.php:31
+#: public/templates/myaccount/subscriptions.php:42
+msgid "Next Payment"
+msgstr "Prossimo Pagamento"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:512
+msgid "Orders"
+msgstr "Ordini"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:549
+msgid "Billing:"
+msgstr "Fatturazione:"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:553
+#, php-format
+msgid "Email: %s"
+msgstr "E-mail: %s"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:557
+#, php-format
+msgid "Tel: %s"
+msgstr "Tel: %s"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:582
+#, php-format
+msgid "%1$s#%2$s%3$s for %4$s"
+msgstr "%1$s#%2$s%3$s per %4$s"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:583
+msgid "Show more details"
+msgstr "Mostra maggiori dettagli"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:607
+#: includes/subscription-common-functions.php:315
+msgid "Reactivate"
+msgstr "Riattiva"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:608
+msgid "Suspend"
+msgstr "Sospendi"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:609
+#: includes/subscription-common-functions.php:328
+msgid "Cancel"
+msgstr "Annulla"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:610
+#: admin/class-hf-woocommerce-subscription-admin.php:625
+msgid "Trash"
+msgstr "Cestino"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:611
+#: admin/class-hf-woocommerce-subscription-admin.php:629
+msgid "Delete Permanently"
+msgstr "Elimina definitivamente"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:623
+msgid "Restore this item from the Trash"
+msgstr "Ripristina questo elemento dal cestino"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:623
+msgid "Restore"
+msgstr "Ripristina"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:625
+msgid "Move this item to the Trash"
+msgstr "Sposta questo elemento nel cestino"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:629
+msgid "Delete this item permanently"
+msgstr "Elimina questo elemento definitivamente"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:635
+msgid "Cancel Now"
+msgstr "Annulla ora"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:683
+#: public/templates/myaccount/subscriptions.php:46
+#, php-format
+msgid "Via %s"
+msgstr "Tramite %s"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:722
+#, fuzzy
+msgid "No Related Orders"
+msgstr "Ordini Relativi all’abbonamento"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:739
+#, fuzzy, php-format
+msgid "Could not find subscription with ID #%d."
+msgstr "Impossibile trovare sottoscrizione con ID #%d."
+
+#: admin/class-hf-woocommerce-subscription-admin.php:976
+#, php-format
+msgid "Error %d: Unable to create subscription. Please try again."
+msgstr "Errore %d: impossibile creare la sottoscrizione. Riprova."
+
+#: admin/class-hf-woocommerce-subscription-admin.php:990
+#, php-format
+msgid "Error %d: Unable to add tax to subscription. Please try again."
+msgstr "Errore %d: impossibile aggiungere IVA per l'Abbonamento. Riprova."
+
+#: admin/class-hf-woocommerce-subscription-admin.php:1000
+#, php-format
+msgid "Error %d: Unable to create order. Please try again."
+msgstr "Errore %d: impossibile creare l'ordine. Riprova."
+
+#: admin/class-hf-woocommerce-subscription-admin.php:1212
+#, fuzzy
+msgid "Process renewal"
+msgstr "Processa il rinnovo"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:1215
+#, fuzzy
+msgid "Create pending renewal order"
+msgstr "Generare ordine di rinnovo in attesa"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:1218
+msgid "Retry Renewal Payment"
+msgstr ""
+
+#: admin/class-hf-woocommerce-subscription-admin.php:1226
+#, fuzzy
+msgid "Process renewal requested by admin."
+msgstr "Elaborazione ordine di rinnovo richiesto dall'amministratore."
+
+#: admin/class-hf-woocommerce-subscription-admin.php:1239
+msgid "Subscription renewal payment due:"
+msgstr "Pagamento dovuto per rinnovo della sottoscrizione:"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:1246
+msgid ""
+"Error: Unable to create renewal order from scheduled payment. Please try "
+"again."
+msgstr ""
+"Errore: Impossibile creare un ordine di rinnovo dal pagamento previsto. "
+"Riprova."
+
+#: admin/class-hf-woocommerce-subscription-admin.php:1384
+msgid "Subscription status changed by bulk edit:"
+msgstr "Stato dell'abbonamento cambiato con modifica massiva:"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:1456
+#, fuzzy
+msgid "Resubscribe Order"
+msgstr "Ordine di Reiscrizione"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:1481
+#, php-format
+msgid "Subscription does not exist in scheduled action: %d"
+msgstr ""
+
+#: admin/class-hf-woocommerce-subscription-admin.php:1542
+#, php-format
+msgid "#%s"
+msgstr "#%s"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:1543
+#, php-format
+msgid "Order %s created to record renewal."
+msgstr "Ordine %s creato per registrare un rinnovo."
+
+#: admin/class-hf-woocommerce-subscription-admin.php:1552
+msgid "Support Recurring Pay"
+msgstr "Supporta pagamenti ricorrenti"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:1561
+msgid "Yes"
+msgstr "Sì"
+
+#: admin/class-hf-woocommerce-subscription-admin.php:1563
+msgid "No"
+msgstr "No"
+
+#: admin/partials/hf-woocommerce-subscription-admin-display.php:11
+msgid ""
+"Important message for users who updated from the old version of the plugin"
+msgstr ""
+"Messaggio importante per gli utenti che hanno aggiornato la vecchia versione "
+"del plug-in"
+
+#: admin/partials/hf-woocommerce-subscription-admin-display.php:14
+msgid ""
+"-- We have made some major modifications to our plugin based on the "
+"suggestions from WordPress repository moderation team."
+msgstr ""
+"— Abbiamo apportato alcune modifiche importanti al nostro plug-in basandoci "
+"sui suggerimenti del team di moderazione del repository di WordPress."
+
+#: admin/partials/hf-woocommerce-subscription-admin-display.php:15
+msgid ""
+"-- This means that the updated version at WordPress.org may lack some of the "
+"functionalities which were present in the previous version."
+msgstr ""
+"— Ciò significa che la versione aggiornata di WordPress.org potrebbe non "
+"disporre di alcune funzionalità presenti nella versione precedente."
+
+#: admin/partials/hf-woocommerce-subscription-admin-display.php:16
+msgid ""
+"-- To make sure you are not affected by this change please check all the "
+"existing functionalities related to the subscription plugin."
+msgstr ""
+"— Per assicurarti di non essere interessati da questa modifica, controlla "
+"tutte le funzionalità esistenti relative al plugin di abbonamento."
+
+#: admin/partials/hf-woocommerce-subscription-admin-display.php:17
+msgid "-- In case you face any issues after the update, please contact me on"
+msgstr ""
+"— Nel caso in cui dovete affrontare eventuali problemi dopo l'aggiornamento, "
+"vi prego di contattarmi su"
+
+#: admin/partials/hf-woocommerce-subscription-admin-display.php:17
+msgid "Skype ( mark_35997 )."
+msgstr ""
+
+#: admin/partials/hf-woocommerce-subscription-admin-display.php:18
+msgid "-- I'll look into the issue and assist you with the fix."
+msgstr "— Analizzerò il problema e ti assisterò nella correzione."
+
+#: admin/templates/subscription/product-price-fields.php:16
+#, fuzzy
+msgid "Choose the subscription price, interval and period."
+msgstr ""
+"Segli il prezzo dell'abbonamento, intervallo di fatturazione ed il periodo"
+
+#: admin/templates/subscription/product-price-fields.php:43
+msgid "Subscription length"
+msgstr "Durata iscrizione"
+
+#: admin/templates/subscription/product-price-fields.php:46
+msgid "Automatically expire the subscription after this length of time."
+msgstr ""
+"Scadere automaticamente la sottoscrizione dopo questo periodo di tempo."
+
+#: includes/class-date-time-functions.php:123
+msgid "every"
+msgstr "ogni"
+
+#: includes/class-date-time-functions.php:127
+#: includes/class-subscriptions-product.php:118
+#, php-format
+msgid "every %s"
+msgstr "every %s"
+
+#: includes/class-date-time-functions.php:279
+#: includes/components/class-subscription.php:786
+#, php-format
+msgid "In %s"
+msgstr "In %s"
+
+#: includes/class-date-time-functions.php:281
+#: includes/components/class-subscription.php:788
+#, php-format
+msgid "%s ago"
+msgstr "%s fa"
+
+#: includes/class-hf-woocommerce-subscription-activator.php:28
+msgid "HF Subscription Plugin not activated. WooCommerce is required."
+msgstr "Plugin di sottoscrizione HF non attivato. WooCommerce è richiesto."
+
+#: includes/class-hf-woocommerce-subscription.php:242
+#, fuzzy
+msgid "Subscription Details"
+msgstr ""
+"Un abbonamento intestato a %1$s è stato sospeso dall’utente. Ecco i dettagli "
+"qui di seguito"
+
+#: includes/class-hf-woocommerce-subscription.php:243
+#, fuzzy
+msgid "Billing Schedule Details"
+msgstr "Dettagli di Programmazione"
+
+#: includes/class-hf-woocommerce-subscription.php:246
+#: includes/class-hf-woocommerce-subscription.php:249
+msgid "Related Orders"
+msgstr "Ordini Relativi all’abbonamento"
+
+#: includes/class-subscriptions-cart.php:60
+msgid ""
+"A subscription renewal has been removed from your cart. Multiple "
+"subscriptions can not be purchased at the same time."
+msgstr ""
+"Un  rinnovo Abbonamento  è stato rimosso dal carrello. Non è possibile "
+"acquistare più abbonamenti contemporaneamente."
+
+#: includes/class-subscriptions-cart.php:63
+msgid ""
+"A subscription has been removed from your cart. Due to payment gateway "
+"restrictions, different subscription products can not be purchased at the "
+"same time."
+msgstr ""
+"Un Abbonamento  è stato rimosso dal carrello. A causa di restrizioni del "
+"gateway di pagamento non è possibile acquistare diversi abbonamenti "
+"contemporaneamente."
+
+#: includes/class-subscriptions-cart.php:66
+msgid ""
+"A subscription has been removed from your cart. Products and subscriptions "
+"can not be purchased at the same time."
+msgstr ""
+"Un  Abbonamento  è stato rimosso dal carrello. Non è possibile acquistare "
+"contemporaneamente prodotti ed abbonamenti."
+
+#: includes/class-subscriptions-cart.php:353
+msgid "Please enter a valid postcode/ZIP."
+msgstr "Inserire un CAP valido."
+
+#: includes/class-subscriptions-cart.php:473
+msgid ""
+"That subscription product can not be added to your cart as it already "
+"contains a subscription renewal."
+msgstr ""
+"Il prodotto da sottoscrivere non può essere aggiunto al tuo carrello in "
+"quanto contiene già un rinnovo di sottoscrizione."
+
+#: includes/class-subscriptions-cart.php:511
+msgid "Invalid recurring shipping method."
+msgstr "Metodo di spedizione ricorrente non valido."
+
+#: includes/class-subscriptions-product.php:122
+#: includes/subscription-price-functions.php:58
+#, php-format
+msgid "%1$s for %2$s"
+msgstr "%1$s per %2$s"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:81
+msgid "Published"
+msgstr "Pubblicato"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:81
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:181
+msgid "Complete"
+msgstr "Prenotazione contatto completo"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:119
+msgid "Hook"
+msgstr "Gancio"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:121
+msgid "Arguments"
+msgstr "Argomenti"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:122
+msgid "Group"
+msgstr "Gruppo"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:124
+msgid "Scheduled Date"
+msgstr "Data Pianificata"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:129
+msgid "Started"
+msgstr "Iniziato"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:131
+msgid "Completed"
+msgstr "Completato"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:135
+msgid "Claim ID"
+msgstr "ID reivendicazione"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:136
+msgid "Log"
+msgstr "File di registro"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:206
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:215
+#, php-format
+msgid " (%s ago)"
+msgstr "(%s fa)"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:247
+msgid "Process the action now as if it were run as part of a queue"
+msgstr "Elaborare l’azione ora come se venisse eseguito come parte di una coda"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:247
+msgid "Run"
+msgstr "In funzione"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:325
+#, php-format
+msgid ""
+"Maximum simulatenous batches already in progress (%s queues). No actions "
+"will be processed until the current batches are complete."
+msgstr ""
+"Simultanee massimo lotti già in corso (code %s). Nessuna azione verranno "
+"elaborata fino al completamento del batch corrente."
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:334
+#, php-format
+msgid "Successfully executed the action: %s"
+msgstr "Eseguito con successo l'azione: %s"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:338
+#, php-format
+msgid "Could not execute the action: %s"
+msgstr "Non può eseguire l'azione: %s"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:370
+msgid "Now!"
+msgstr "Now!"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:457
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:460
+msgid "Action updated."
+msgstr "Azione Aggiornata"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:458
+msgid "Custom field updated."
+msgstr "Custom field updated."
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:459
+msgid "Custom field deleted."
+msgstr "Custom field delete."
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:461
+#, php-format
+msgid "Action restored to revision from %s"
+msgstr "Ripristinato in revisione da %s."
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:462
+msgid "Action scheduled."
+msgstr "Azione in programma."
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:463
+msgid "Action saved."
+msgstr "Azione salvata."
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:464
+msgid "Action submitted."
+msgstr ""
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:465
+#, php-format
+msgid "Action scheduled for: <strong>%1$s</strong>"
+msgstr "Azione prevista per: <strong>%1$s</strong>"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:465
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_AdminView.php:466
+msgid "Action draft updated."
+msgstr "Progetto di azione aggiornato."
+
+#: includes/components/action-scheduler/classes/ActionScheduler_QueueRunner.php:138
+msgid "Every minute"
+msgstr "Ogni minuto"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:248
+msgid "action created"
+msgstr "Azione = Creato"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:252
+msgid "action canceled"
+msgstr "Azione interrotta"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:256
+msgid "action started"
+msgstr ""
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:260
+msgid "action complete"
+msgstr "azione completa"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:264
+#, php-format
+msgid "action failed: %s"
+msgstr "operazione non riuscita: %s"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:268
+#, php-format
+msgid "action timed out after %s seconds"
+msgstr "Azione timeout dopo %s secondi"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:273
+#, php-format
+msgid "unexpected shutdown: PHP Fatal error %s in %s on line %s"
+msgstr "arresto imprevisto: errore fatale PHP %s %s sulla linea %s"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:278
+msgid "action reset"
+msgstr "azione reset"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore.php:25
+#, php-format
+msgid "Error saving action: %s"
+msgstr "Errore durante il salvataggio di azione: %s"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore.php:44
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore.php:53
+msgid "Invalid schedule. Cannot save action."
+msgstr "Programma non valido. Non è possibile salvare l'azione."
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore.php:69
+msgid "Unable to save action."
+msgstr "Impossibile salvare l'azione."
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore.php:319
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore.php:328
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore.php:354
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore.php:489
+#, php-format
+msgid "Unidentified action %s"
+msgstr "Azione non identificato %s"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore.php:410
+msgid "Unable to claim actions. Database error."
+msgstr "Impossibile rivendicare azioni. Errore del database."
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore.php:440
+#, php-format
+msgid "Unable to unlock claim %s. Database error."
+msgstr "Impossibile sbloccare il reclamo %s. errore del Database."
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore.php:456
+#, php-format
+msgid "Unable to unlock claim on action %s. Database error."
+msgstr ""
+"Impossibile sbloccare il reclamo in caso di errore di azione %s. Database."
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore.php:467
+#, php-format
+msgid "Unable to mark failure on action %s. Database error."
+msgstr "Impossibile contrassegnare guasto su errore di azione %s. Database."
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:22
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:33
+msgid "Scheduled Actions"
+msgstr "Azioni programmate"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:23
+msgid "Scheduled actions are hooks triggered on a cetain date and time."
+msgstr "Azioni pianificate sono ganci innescati su un cetain data e ora."
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:34
+msgid "Scheduled Action"
+msgstr "Azione pianificata"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:36
+msgid "Add"
+msgstr "Aggiungi"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:37
+msgid "Add New Scheduled Action"
+msgstr "Aggiungi nuova azione pianificata"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:39
+msgid "Edit Scheduled Action"
+msgstr "Azione pianificata"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:40
+msgid "New Scheduled Action"
+msgstr "Azione pianificata"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:41
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:42
+msgid "View Action"
+msgstr "Visualizza azione"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:43
+msgid "Search Scheduled Actions"
+msgstr "Ricerca azioni programmate"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:44
+msgid "No actions found"
+msgstr "Nessun’azione trovata"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:45
+msgid "No actions found in trash"
+msgstr "Nessuna azione trovata nella spazzatura"
+
+#: includes/components/action-scheduler/classes/ActionScheduler_wpPostStore_TaxonomyRegistrar.php:16
+msgid "Action Group"
+msgstr "Gruppo azioni"
+
+#: includes/components/class-subscription.php:174
+msgid "Payment received."
+msgstr "Pagamento ricevuto."
+
+#: includes/components/class-subscription.php:363
+#, php-format
+msgid "Unable to change subscription status to \"%s\"."
+msgstr "Impossibile modificare lo stato dell'Abbonamento a \"%s\"."
+
+#: includes/components/class-subscription.php:438
+#, php-format
+msgid "Unable to change subscription status to \"%s\". Exception: %s"
+msgstr ""
+"Impossibile modificare lo stato dell'Abbonamento  a \"%s\". Eccezione:%s"
+
+#: includes/components/class-subscription.php:505
+#, php-format
+msgid "Status changed from %1$s to %2$s."
+msgstr "Abbonamento modificato da %1$s a %2$s."
+
+#: includes/components/class-subscription.php:512
+#, php-format
+msgid "Status set to %s."
+msgstr "Status settato a %s."
+
+#: includes/components/class-subscription.php:795
+msgid "Not yet ended"
+msgstr "Non ancora terminata"
+
+#: includes/components/class-subscription.php:798
+msgid "Not cancelled"
+msgstr "Non annullato"
+
+#: includes/components/class-subscription.php:802
+msgid "-"
+msgstr "-"
+
+#: includes/components/class-subscription.php:888
+msgid "The start date of a subscription can not be deleted, only updated."
+msgstr ""
+"La data di inizio di un abbonamento non può essere cancellata ma solo "
+"aggiornata."
+
+#: includes/components/class-subscription.php:892
+#, php-format
+msgid ""
+"The %s date of a subscription can not be deleted. You must delete the order."
+msgstr ""
+"The %s date of a subscription can not be deleted. You must delete the order."
+
+#: includes/components/class-subscription.php:1150
+msgid "Payment failed."
+msgstr "Pagamento fallito."
+
+#: includes/components/class-subscription.php:1154
+msgid "Subscription Cancelled: maximum number of failed payments reached."
+msgstr ""
+"Abbonamento annullato: è stato raggiunto il numero di tentativi di pagamento."
+
+#: includes/components/class-subscription.php:1286
+msgid "Manual Renewal"
+msgstr "Pagamento Manuale"
+
+#: includes/components/class-subscription.php:1336
+msgid "Payment method meta must be an array."
+msgstr "Il meta dato del pagamento deve essere un array."
+
+#: includes/components/class-subscription.php:1375
+#: includes/subscription-renewal-functions.php:177
+msgid "Backordered"
+msgstr "in ordinazione"
+
+#: includes/components/class-subscription.php:1437
+msgid "Invalid format. First parameter needs to be an array."
+msgstr "Formato non valido. Il primo parametro deve essere un array."
+
+#: includes/components/class-subscription.php:1441
+msgid "Invalid data. First parameter was empty when passed to update_dates()."
+msgstr ""
+"Dati non validi. Il primo parametro era vuoto quando è stato passato a "
+"update_dates ()."
+
+#: includes/components/class-subscription.php:1448
+msgid ""
+"Invalid data. First parameter has a date that is not in the registered date "
+"types."
+msgstr ""
+"Dati non validi. Il primo parametro ha una data che non presente nei tipi di "
+"data registrati."
+
+#: includes/components/class-subscription.php:1467
+#, php-format
+msgid "Invalid %s date. The date must be of the format: \"Y-m-d H:i:s\"."
+msgstr "Data non valida %s. La data deve essere nel formato:  “Y-m-d H:i:s”."
+
+#: includes/components/class-subscription.php:1498
+#, php-format
+msgid "The %s date must occur after the cancellation date."
+msgstr "La data %s  deve essere successiva alla data di cancellazione."
+
+#: includes/components/class-subscription.php:1503
+#, php-format
+msgid "The %s date must occur after the last payment date."
+msgstr "La data %s deve essere successiva alla data dell'ultimo pagamento."
+
+#: includes/components/class-subscription.php:1506
+#, php-format
+msgid "The %s date must occur after the next payment date."
+msgstr "La data %s deve essere successiva alla prossima data di pagamento."
+
+#: includes/subscription-cart-functions.php:54
+#: includes/subscription-cart-functions.php:55
+#, php-format
+msgid "Shipping via %s"
+msgstr "Spedizione tramite %s"
+
+#: includes/subscription-cart-functions.php:139
+msgid "Free"
+msgstr "Gratuito"
+
+#: includes/subscription-cart-functions.php:163
+msgid "Free shipping coupon"
+msgstr "Coupon spedizione gratuita"
+
+#: includes/subscription-cart-functions.php:187
+#, php-format
+msgid "(Includes %s)"
+msgstr "(include %s)"
+
+#: includes/subscription-cart-functions.php:230
+#, php-format
+msgid "First renewal date: %s"
+msgstr "Primo Rinnovo: %s"
+
+#: includes/subscription-common-functions.php:321
+msgid "Resubscribe"
+msgstr "Riabbonati"
+
+#: includes/subscription-common-functions.php:364
+msgid ""
+"Invalid date. The date must be a string and of the format: \"Y-m-d H:i:s\"."
+msgstr "Data non valida %s. La data deve essere nel formato:   “Y-m-d H:i:s”."
+
+#: includes/subscription-common-functions.php:366
+msgid "Subscription start date must be before current day."
+msgstr "La data di inizio abbonamento deve essere prima della data di oggi."
+
+#: includes/subscription-common-functions.php:370
+msgid "Invalid subscription customer_id."
+msgstr "Customer_id Abbonamento non Valido."
+
+#: includes/subscription-common-functions.php:374
+msgid "Invalid subscription billing period given."
+msgstr "Periodo di fatturazione dell'abbonamento fornito non valido."
+
+#: includes/subscription-common-functions.php:378
+msgid ""
+"Invalid subscription billing interval given. Must be an integer greater than "
+"0."
+msgstr ""
+"Intervallo di fatturazione dell'abbonamento non valido. Deve essere un "
+"numero intero maggiore di 0."
+
+#: includes/subscription-common-functions.php:386
+msgid "%b %d, %Y @ %I:%M %p"
+msgstr "%b %d, %Y @ %I:%M %p"
+
+#: includes/subscription-common-functions.php:387
+#, php-format
+msgid "Subscription &ndash; %s"
+msgstr "Abbonamento &ndash; %s"
+
+#: includes/subscription-common-functions.php:401
+msgid "Invalid subscription status given."
+msgstr "Stato della sottoscrizione fornito non valido."
+
+#: includes/subscription-common-functions.php:432
+msgid "Invalid data. Orders expected aren't orders."
+msgstr "Dati non validi. Gli ordini previsti non sono ordini."
+
+#: includes/subscription-common-functions.php:436
+msgid "Invalid data. Type of copy is not a string."
+msgstr "Dati non validi. Tipo di copia non è una stringa."
+
+#: includes/subscription-common-functions.php:485
+msgid "Pending"
+msgstr "In attesa"
+
+#: includes/subscription-common-functions.php:486
+msgid "Active"
+msgstr "Attiva"
+
+#: includes/subscription-common-functions.php:487
+msgid "On hold"
+msgstr "In attesa"
+
+#: includes/subscription-common-functions.php:488
+msgid "Cancelled"
+msgstr "Annullato"
+
+#: includes/subscription-common-functions.php:489
+msgid "Expired"
+msgstr "Scaduto"
+
+#: includes/subscription-common-functions.php:490
+msgid "Pending Cancellation"
+msgstr "In attesa di cancellazione"
+
+#: includes/subscription-common-functions.php:499
+msgid "Can not get status name. Status is not a string."
+msgstr "Non posso ottenere il nome dello status. Lo status non è una stringa."
+
+#: includes/subscription-common-functions.php:571
+msgid "Can not get address type display name. Address type is not a string."
+msgstr ""
+"Non posso  ottenere il nome di visualizzazione del tipo di indirizzo. Tipo "
+"di indirizzo non è una stringa."
+
+#: includes/subscription-common-functions.php:575
+msgid "Shipping Address"
+msgstr "Indirizzo per la spedizione"
+
+#: includes/subscription-common-functions.php:576
+msgid "Billing Address"
+msgstr "Indirizzo di Fatturazione"
+
+#: includes/subscription-common-functions.php:588
+#: public/templates/myaccount/view-subscription.php:31
+msgid "Last Order Date"
+msgstr "Ultima data dell’ordine"
+
+#: includes/subscription-common-functions.php:589
+msgid "Cancelled Date"
+msgstr "Data Cancellazione"
+
+#: includes/subscription-common-functions.php:590
+#: public/templates/myaccount/view-subscription.php:33
+msgid "End Date"
+msgstr "Fine Data"
+
+#: includes/subscription-common-functions.php:610
+msgid "Date type is not a string."
+msgstr "Tipo Data non è una stringa."
+
+#: includes/subscription-common-functions.php:612
+msgid "Date type can not be an empty string."
+msgstr "Il tipo di data non può essere una stringa vuota."
+
+#: includes/subscription-price-functions.php:13
+msgid "up front"
+msgstr "iniziale"
+
+#: includes/subscription-price-functions.php:44
+#, php-format
+msgid "%1$s %2$s then %3$s"
+msgstr "%1$s %2$s poi %3$s"
+
+#: includes/subscription-renewal-functions.php:94
+#, php-format
+msgid "\"%s\" passed to the function was not a string."
+msgstr ""
+
+#: includes/subscription-renewal-functions.php:98
+#, php-format
+msgid "\"%s\" is not a valid new order type."
+msgstr "\"%s\" non è un nuovo tipo di ordine valido."
+
+#: public/templates/cart/cart-recurring-shipping.php:15
+msgid "Recurring shipping options can be selected on checkout."
+msgstr ""
+"Le opzioni di spedizione ricorrenti possono essere selezionate durante il "
+"pagamento."
+
+#: public/templates/cart/cart-recurring-shipping.php:29
+msgid "Shipping costs will be calculated once you have provided your address."
+msgstr ""
+"Le spese di spedizione saranno calcolate in seguito, dopo che avrai fornito "
+"il tuo indirizzo."
+
+#: public/templates/cart/cart-recurring-shipping.php:31
+msgid ""
+"There are no shipping methods available. Please double check your address, "
+"or contact us if you need any help."
+msgstr ""
+"Non ci sono metodi di spedizione disponibili. Per favore controlla "
+"nuovamente il tuo indirizzo o contattaci se hai bisogno di assistenza."
+
+#: public/templates/myaccount/related-subscriptions.php:8
+#, fuzzy
+msgid "Related Subscriptions"
+msgstr "Abbonamenti Correlati"
+
+#: public/templates/myaccount/related-subscriptions.php:17
+#: public/templates/myaccount/subscriptions.php:28
+#: public/templates/myaccount/view-subscription.php:52
+#, fuzzy
+msgid "Actions"
+msgstr "Ricerca azioni programmate"
+
+#: public/templates/myaccount/related-subscriptions.php:23
+#, fuzzy
+msgid "ID"
+msgstr "Customer_id Abbonamento non Valido."
+
+#: public/templates/myaccount/related-subscriptions.php:38
+#: public/templates/myaccount/subscriptions.php:56
+#, fuzzy
+msgid "View"
+msgstr "Vedi l’abbonamento: %s"
+
+#: public/templates/myaccount/subscription-account-view.php:57
+#, php-format
+msgid "Subscription #%s"
+msgstr "Abbonamento #%s"
+
+#: public/templates/myaccount/subscriptions.php:16
+#, fuzzy
+msgid "My Subscriptions"
+msgstr "Le mie iscrizioni"
+
+#: public/templates/myaccount/subscriptions.php:24
+msgid "Subscription ID"
+msgstr "ID Sottoscrizione"
+
+#: public/templates/myaccount/subscriptions.php:26
+#, fuzzy
+msgid "Next payment on"
+msgstr "Prossimo Pagamento"
+
+#: public/templates/myaccount/view-subscription.php:32
+msgid "Next Payment Date"
+msgstr "Prossima data di pagamento"
+
+#: public/templates/myaccount/view-subscription.php:64
+#, fuzzy
+msgid "Subscription Updates"
+msgstr "Aggiornamenti Sottoscrizione"
+
+#: public/templates/myaccount/view-subscription.php:90
+#, fuzzy
+msgid "Product"
+msgstr "%sAggiungi un prodotto di sottoscrizione »%s"
+
+#~ msgid "Switched"
+#~ msgstr "Scambiata"
+
+#~ msgid "Recurring:"
+#~ msgstr "Ricorrente:"
+
+#~ msgid "Activate"
+#~ msgstr "Attiva"
+
+#~ msgid "Put on-hold"
+#~ msgstr "Sospendi"
+
+#~ msgid "Subscription updated."
+#~ msgstr "Abbonamento aggiornato."
+
+#~ msgid "Subscription restored to revision from %s"
+#~ msgstr "Abbonamento ripristinato in revisione da %s"
+
+#~ msgid "Subscription saved."
+#~ msgstr "Abbonamento salvato."
+
+#~ msgid "Subscription submitted."
+#~ msgstr "Abbonamento sottoscritto."
+
+#~ msgid "Subscription scheduled for: %1$s."
+#~ msgstr "Abbonamento programmato per: %1$s."
+
+#~ msgid "Subscription draft updated."
+#~ msgstr "Bozza Sottoscrizione aggiornata."
+
+#~ msgid "Subscription Data"
+#~ msgstr "Dati Abbonamento"
+
+#~ msgid "Billing Schedule Data"
+#~ msgstr "Pianificazione Fatturazione"
+
+#~ msgid "Please enter a start date in the past."
+#~ msgstr "Immettere una data di inizio che sia nel passato."
+
+#~ msgid "Please enter a date at least one hour into the future."
+#~ msgstr "Inserisci una data di almeno un'ora nel futuro."
+
+#~ msgid "Please enter a date after the trial end."
+#~ msgstr ""
+#~ "Per favore, inserisci una data successiva al termine del periodo di prova."
+
+#~ msgid ""
+#~ "Are you sure you want to process a renewal?\n"
+#~ "\n"
+#~ "This will charge the customer and email them the renewal order (if emails "
+#~ "are enabled)."
+#~ msgstr ""
+#~ "Sei sicuro di voler processare un rinnovo?\n"
+#~ "\n"
+#~ "Questo addebiterà il costo al cliente ed invierà al cliente una e-mail "
+#~ "con l'ordine di rinnovo (se le email sono abilitate)."
+
+#~ msgid ""
+#~ "Are you sure you want to retry payment for this renewal order?\n"
+#~ "\n"
+#~ "This will attempt to charge the customer and send renewal order emails."
+#~ msgstr ""
+#~ "Sei sicuro di voler riprovare il pagamento per questo ordine di rinnovo? "
+#~ "Questo tenterà di addebitare al cliente e gli invierà una e-mail ordine "
+#~ "di rinnovo (se le email sono abilitati)."
+
+#~ msgid "Process renewal order action requested by admin."
+#~ msgstr "Elaborazione ordine di rinnovo richiesto dall'amministratore."
+
+#~ msgid "Create pending renewal order requested by admin action."
+#~ msgstr ""
+#~ "Elaborazione ordine di rinnovo in attesa richiesto da una azione "
+#~ "dell'amministratore."
+
+#~ msgid "Variable subscription"
+#~ msgstr "Abbonamento variabile"
+
+#~ msgid ""
+#~ "Unable to change subscription status to \"%s\". Please assign a customer "
+#~ "to the subscription to activate it."
+#~ msgstr ""
+#~ "Impossibile modificare lo stato dell'abbonamento a \"%s\". Si prega di "
+#~ "assegnare un cliente alla sottoscrizione per attivarlo."
+
+#~ msgid ""
+#~ "Trashing this order will also trash the subscriptions purchased with the "
+#~ "order."
+#~ msgstr ""
+#~ "Cestinando questo ordine cestinerai anche gli abbonamenti acquistati con "
+#~ "l'ordine."
+
+#~ msgid "Active subscriber"
+#~ msgstr "Sottoscrittore attivo?"
+
+#~ msgid "We can't find a subscription with ID #%d. Perhaps it was deleted?"
+#~ msgstr ""
+#~ "Impossibile trovare un abbonamento con ID #% d. Forse è stato eliminato?"
+
+#~ msgid "Auto Recurring Payments"
+#~ msgstr "Pagamenti ricorrenti"
+
+#~ msgid ""
+#~ "This subscription is no longer editable because the payment gateway does "
+#~ "not allow modification of recurring amounts."
+#~ msgstr ""
+#~ "Questo abbonamento non è più modificabile perché il gateway di pagamento "
+#~ "non consente la modifica di importi ricorrenti."
+
+#~ msgid ""
+#~ "No payment gateways capable of processing automatic subscription payments "
+#~ "are enabled."
+#~ msgstr ""
+#~ "Nessun gateway di pagamento in grado di elaborare i pagamenti abbonamento "
+#~ "automatico è abilitato."
+
+#~ msgid "Recurring Payments"
+#~ msgstr "Pagamenti Ricorrenti"
+
+#~ msgid ""
+#~ "Payment method meta updated after customer deleted a token from their My "
+#~ "Account page. Payment meta changed from %1$s to %2$s"
+#~ msgstr ""
+#~ "Meta di metodo di pagamento aggiornati dopo cliente eliminato un token "
+#~ "dalla loro pagina il mio Account. Pagamento meta cambiato da %1$s a %2$s"
+
+#~ msgid "%s ending in %s"
+#~ msgstr "%s che termina in %s"
+
+#~ msgid "Subscription #%d does not exist."
+#~ msgstr "L’abbonamento #%d non esiste."
+
+#~ msgid "Customer added \"%1$s\" (Product ID: #%2$d) via the My Account page."
+#~ msgstr ""
+#~ "Il cliente ha aggiunto \"%1$s\" (Product ID: #%2$d)  tramite la pagina "
+#~ "Account personale."
+
+#~ msgid "Your request to undo your previous action was unsuccessful."
+#~ msgstr "La richiesta di annullare l'azione precedente non è riuscita."
+
+#~ msgid ""
+#~ "Customer removed \"%1$s\" (Product ID: #%2$d) via the My Account page."
+#~ msgstr ""
+#~ "Customer removed \"%1$s\" (Product ID: #%2$d) via the My Account page."
+
+#~ msgid ""
+#~ "You have successfully removed \"%1$s\" from your subscription. %2$sUndo?"
+#~ "%3$s"
+#~ msgstr ""
+#~ "Hai rimosso con successo \"%1$s\" dall'abbonamento. %2$sAnnullare? %3$s"
+
+#~ msgid "Security error. Please contact us if you need assistance."
+#~ msgstr ""
+#~ "Errore di sicurezza. Vi preghiamo di contattarci se avete bisogno di "
+#~ "assistenza."
+
+#~ msgid "You cannot modify a subscription that does not belong to you."
+#~ msgstr "Non è possibile modificare un Abbonamento che non ti appartiene ."
+
+#~ msgid "You cannot remove an item that does not exist. "
+#~ msgstr "Non è possibile rimuovere un elemento che non esiste."
+
+#~ msgid ""
+#~ "The item was not removed because this Subscription's payment method does "
+#~ "not support removing an item."
+#~ msgstr ""
+#~ "L'articolo non è stato rimosso in quanto il metodo di pagamento di questo "
+#~ "abbonamento non supporta la rimozione di un elemento."
+
+#~ msgid "Weekly"
+#~ msgstr "Settimanalmente"
+
+#~ msgid "That doesn't appear to be your order."
+#~ msgstr "Questo non sembra essere il tuo ordine."
+
+#~ msgid "Complete checkout to renew your subscription."
+#~ msgstr "Completa l'acquisto per rinnovare l'Abbonamento."
+
+#~ msgid ""
+#~ "The %s product has been deleted and can no longer be renewed. Please "
+#~ "choose a new product or contact us for assistance."
+#~ msgstr ""
+#~ "Il prodotto %s è stato eliminato e non può essere rinnovato. Per favore, "
+#~ "scegli un altro prodotto o contattaci per avere assistenza."
+
+#~ msgid ""
+#~ "There was an error with your request to resubscribe. Please try again."
+#~ msgstr ""
+#~ "Si è verificato un errore con la richiesta di rinnovo. Si prega di "
+#~ "riprovare."
+
+#~ msgid "That subscription does not exist. Has it been deleted?"
+#~ msgstr "Questa sottoscrizione non esiste. E' stata cancellata?"
+
+#~ msgid "That doesn't appear to be one of your subscriptions."
+#~ msgstr "Non sembra essere una delle tue sottoscrizioni."
+
+#~ msgid ""
+#~ "You can not resubscribe to that subscription. Please contact us if you "
+#~ "need assistance."
+#~ msgstr ""
+#~ "Non puoi sottoscrivere nuovamente questa sottoscrizione. Contattaci se "
+#~ "hai bisogno di assistenza."
+
+#~ msgid "Complete checkout to resubscribe."
+#~ msgstr "Completa l'acquisto per abbonarti nuovamente."
+
+#~ msgid "Customer resubscribed in order #%s"
+#~ msgstr "Cliente re iscritto nell'ordine # %s"
+
+#~ msgid "Cancelled Subscription"
+#~ msgstr "Sottoscrizioni Cancellate"
+
+#~ msgid ""
+#~ "Cancelled Subscription emails are sent when a customer's subscription is "
+#~ "cancelled (either by a store manager, or the customer)."
+#~ msgstr ""
+#~ "Le email di annullamento Abbonamento sono inviate quando un Abbonamento "
+#~ "viene cancellato ( sia da uno store manager che dal cliente)"
+
+#~ msgid "Subscription Cancelled"
+#~ msgstr "Sottoscrizione Canc"
+
+#~ msgid "[%s] Subscription Cancelled"
+#~ msgstr "[%s] Abbonamento Cancellato"
+
+#~ msgid "Enable/Disable"
+#~ msgstr "Abilita/Disabilita"
+
+#~ msgid "Enable this email notification"
+#~ msgstr "Abilita questa notifica via email"
+
+#~ msgid "Recipient(s)"
+#~ msgstr "Destinatario(i)"
+
+#~ msgid ""
+#~ "Enter recipients (comma separated) for this email. Defaults to <code>%s</"
+#~ "code>."
+#~ msgstr ""
+#~ "Inserisci i destinatari (separati da una virgola) per questa email. Di "
+#~ "default a <code>%s</code>."
+
+#~ msgid "Subject"
+#~ msgstr "Argomento"
+
+#~ msgid ""
+#~ "This controls the email subject line. Leave blank to use the default "
+#~ "subject: <code>%s</code>."
+#~ msgstr ""
+#~ "Controlla la riga dell'oggetto dell'email. Lascia vuoto per utilizzare "
+#~ "l'oggetto predefinito: <code>%s</code>."
+
+#~ msgid "Email Heading"
+#~ msgstr "Intestazione email"
+
+#~ msgid ""
+#~ "This controls the main heading contained within the email notification. "
+#~ "Leave blank to use the default heading: <code>%s</code>."
+#~ msgstr ""
+#~ "Controlla l'intestazione principale contenuta nella notifica email. "
+#~ "Lascia vuoto per utilizzare l'intestazione predefinita: <code>%s</code>."
+
+#~ msgid "Email type"
+#~ msgstr "Tipo di email"
+
+#~ msgid "Choose which format of email to send."
+#~ msgstr "Scegli quale formato utlizzare per l'email."
+
+#~ msgid "Plain text"
+#~ msgstr "Puro testo"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Multipart"
+#~ msgstr "Multipart"
+
+#~ msgid "Completed Renewal Order"
+#~ msgstr "Ordine di rinnovo completato"
+
+#~ msgid ""
+#~ "Renewal order complete emails are sent to the customer when a "
+#~ "subscription renewal order is marked complete and usually indicates that "
+#~ "the item for that renewal period has been shipped."
+#~ msgstr ""
+#~ "Le email degli ordini di rinnovo completi vengono inviate al cliente "
+#~ "quando un ordine di rinnovo dell'abbonamento è contrassegnato completo e "
+#~ "di solito indica che l'oggetto acquisto per quel periodo di rinnovo è "
+#~ "stato spedito."
+
+#~ msgid "Your renewal order is complete"
+#~ msgstr "Il tuo ordine di rinnovo è stato completato"
+
+#~ msgid "Your %1$s renewal order from %2$s is complete"
+#~ msgstr "Il tuo %1$s ordine di rinnovo da %2$s è completo"
+
+#~ msgid "Your subscription renewal order is complete - download your files"
+#~ msgstr ""
+#~ "Il tuo ordine di rinnovo dell’abbonamento è stato completato - scarica i "
+#~ "tuoi files"
+
+#~ msgid ""
+#~ "Your %1$s subscription renewal order from %2$s is complete - download "
+#~ "your files"
+#~ msgstr ""
+#~ "Il tuo ordine di rinnovo di %1$s abbonamento da %2$s è completo - Scarica "
+#~ "i tuoi file"
+
+#~ msgid "Expired Subscription"
+#~ msgstr "Abbonamento Scaduto"
+
+#~ msgid ""
+#~ "Expired Subscription emails are sent when a customer's subscription "
+#~ "expires."
+#~ msgstr ""
+#~ "L'email abbonamento scaduto viene inviata quando l'Abbonamento di un "
+#~ "cliente scade."
+
+#~ msgid "Subscription Expired"
+#~ msgstr "Abbonamento Scaduto"
+
+#~ msgid "[%s] Subscription Expired"
+#~ msgstr "[%s] Abbonamento scaduto"
+
+#~ msgid "Subscription argument passed in is not an object."
+#~ msgstr "Argomento della sottoscrizione passato non è un oggetto."
+
+#~ msgid "New Renewal Order"
+#~ msgstr "Nuovo ordine di rinnovo"
+
+#~ msgid ""
+#~ "New renewal order emails are sent when a subscription renewal payment is "
+#~ "processed."
+#~ msgstr ""
+#~ "L'Email di rinnovo viene inviata quando il pagamento dell'abbonamento "
+#~ "viene elaborato."
+
+#~ msgid "New subscription renewal order"
+#~ msgstr "Nuovo ordine di rinnovo Sottoscrizione"
+
+#~ msgid ""
+#~ "[{blogname}] New subscription renewal order ({order_number}) - "
+#~ "{order_date}"
+#~ msgstr ""
+#~ "[{blogname}] Nuovo ordine di rinnovo abbonamento ({order_number}) - "
+#~ "{order_date}"
+
+#~ msgid "Suspended Subscription"
+#~ msgstr "Abbonamento Sospeso"
+
+#~ msgid ""
+#~ "Suspended Subscription emails are sent when a customer manually suspends "
+#~ "their subscription."
+#~ msgstr ""
+#~ "Le email di abbonamento sospeso vengono inviate quando un cliente "
+#~ "sospente manualmente il suo abbonamento."
+
+#~ msgid "Subscription Suspended"
+#~ msgstr "Sottoscrizione sospesa"
+
+#~ msgid "[%s] Subscription Suspended"
+#~ msgstr "[%s] Abbonamento sospeso"
+
+#~ msgid "Processing Renewal order"
+#~ msgstr "Elaborazione ordine di rinnovo"
+
+#~ msgid ""
+#~ "This is an order notification sent to the customer after payment for a "
+#~ "subscription renewal order is completed. It contains the renewal order "
+#~ "details."
+#~ msgstr ""
+#~ "Si tratta di una notifica di ordine inviato al cliente dopo che il "
+#~ "pagamento di un ordine di rinnovo di sottoscrizione è stato completato. "
+#~ "Contiene i dettagli dell'ordine di rinnovo."
+
+#~ msgid "Thank you for your order"
+#~ msgstr "Grazie per il tuo ordine"
+
+#~ msgid "Your {blogname} renewal order receipt from {order_date}"
+#~ msgstr ""
+#~ "La ricevuta dell'ordine di rinnovo su {blogname}  in data {order_date}"
+
+#~ msgid "Renewal Due Invoice"
+#~ msgstr "Rinnovo scadenza fattura"
+
+#~ msgid ""
+#~ "Sent to a customer when the subscription is due for renewal and the "
+#~ "renewal requires a manual payment, either because it uses manual renewals "
+#~ "or the automatic recurring payment failed. The email contains renewal "
+#~ "order information and payment links."
+#~ msgstr ""
+#~ "Inviato a un cliente quando l'abbonamento è in fase di rinnovo e il "
+#~ "rinnovo richiede un pagamento manuale, sia perché utilizza i rinnovi "
+#~ "manuali o il pagamento automatico ricorrente non è riuscito. L'email "
+#~ "contiene informazioni sull'ordine di rinnovo e link di pagamento."
+
+#~ msgid "Invoice for renewal order {order_number} from {order_date}"
+#~ msgstr "Fattura per l'ordine di rinnovo {order_number} del {order_date}"
+
+#~ msgid "Invoice for renewal order {order_number}"
+#~ msgstr "Fattura per l'ordine di rinnovo {order_number}"
+
+#~ msgid "Subscription doesn't exist in scheduled action: %d"
+#~ msgstr "Abbonamento non esistente in pianificazione: %d"
+
+#~ msgid "Failed to activate subscription status for order #%1$s: %2$s"
+#~ msgstr "Impossibile attivare l'Abbonamento  per l'ordine  #%1$s: %2$s"
+
+#~ msgid ""
+#~ "Failed to update subscription status after order #%1$s was put on-hold: "
+#~ "%2$s"
+#~ msgstr ""
+#~ "Impossibile aggiornare l'Abbonamento dopo che ordine #%1$s è stato messo "
+#~ "in attesa: %2$s"
+
+#~ msgid "Failed to cancel subscription after order #%1$s was cancelled: %2$s"
+#~ msgstr ""
+#~ "Impossibile cancellare l 'Abbonamento dopo che l'ordine #%1$s è stato "
+#~ "annullato: %2$s"
+
+#~ msgid "Failed to set subscription as expired for order #%1$s: %2$s"
+#~ msgstr ""
+#~ "Impossibile impostare l'Abbonamento  come scaduto per l'ordine  #%1$s: "
+#~ "%2$s"
+
+#~ msgid "Subscription sign up failed."
+#~ msgstr "Iscrizione iniziale alla sottoscrizione fallita."
+
+#~ msgid ""
+#~ "Failed to process failed payment on subscription for order #%1$s: %2$s"
+#~ msgstr ""
+#~ "Impossibile elaborare il pagamento dell'Abbonamento per l'ordine #%1$s:"
+#~ "%2$s"
+
+#~ msgid "Error: Unable to create subscription. Please try again."
+#~ msgstr "Errore: impossibile creare la sottoscrizione. Riprova."
+
+#~ msgid ""
+#~ "Error: Unable to add product to created subscription. Please try again."
+#~ msgstr ""
+#~ "Errore: impossibile aggiungere il prodotto selezionato alla "
+#~ "Sottoscrizione creata. Riprova."
+
+#~ msgid "Pending subscription created."
+#~ msgstr "Creata Sottoscrizione in attesa."
+
+#~ msgid "Failed"
+#~ msgstr "Impossibile importare% s% s"
+
+#~ msgid "On-hold"
+#~ msgstr "In sospeso"
+
+#~ msgid "%1$s-%2$s"
+#~ msgstr "%1$s-%2$s"
+
+#~ msgid "%1$s%2$s, %3$s @ %4$s : %5$s"
+#~ msgstr "%1$s%2$s, %3$s @ %4$s : %5$s"
+
+#~ msgid "%1$s%2$s, %3$s"
+#~ msgstr "%1$s%2$s, %3$s"
+
+#~ msgid "Change"
+#~ msgstr "Modifica"
+
+#~ msgid "Failed sign-up for subscription %s."
+#~ msgstr "Errore acquisto iniziale per la sottoscrizione: %s."
+
+#~ msgid "Original"
+#~ msgstr "Originale"
+
+#~ msgid "Subscription Parent"
+#~ msgstr "Abbonamento Genitore"
+
+#~ msgid "Subscription Renewal"
+#~ msgstr "Rinnovo Abbonamento"
+
+#~ msgid "Subscription Resubscribe"
+#~ msgstr "Reiscrizione Abbonamento"
+
+#~ msgid "Subscription Switch"
+#~ msgstr "Interruttore di sottoscrizione"
+
+#~ msgid "Non-subscription"
+#~ msgstr "Non-abbonamento"
+
+#~ msgid "Subscription cancelled for refunded order %1$s#%2$s%3$s."
+#~ msgstr "Abbonamento annullato per rimborso dell’ordine %1$s#%2$s%3$s."
+
+#~ msgid "Subscription renewal orders cannot be cancelled."
+#~ msgstr ""
+#~ "Gli ordini di rinnovo della Sottoscrizione non possono essere annullati."
+
+#~ msgid "Subscription reactivated by the subscriber from their account page."
+#~ msgstr "Sottoscrizione %s dal cliente dalla propria pagina account."
+
+#~ msgid "Your subscription has been reactivated."
+#~ msgstr "Il tuo Abbonamento è stato riattivato."
+
+#~ msgid ""
+#~ "You can not reactivate that subscription until paying to renew it. Please "
+#~ "contact us if you need assistance."
+#~ msgstr ""
+#~ "Non puoi riattivare questa sottoscrizione fino a quando il pagamento di "
+#~ "rinnovo non sarà effettuato. Si prega di contattarci se necessiti di "
+#~ "assistenza."
+
+#~ msgid "Subscription put on hold by the subscriber from their account page."
+#~ msgstr ""
+#~ "L’abbonamento è stato messo in attesa dall’utente dalla sua pagina "
+#~ "dell’account"
+
+#~ msgid "Your subscription has been put on hold."
+#~ msgstr "Il tuo abbonamento è stato messo in attesa"
+
+#~ msgid ""
+#~ "You can not suspend that subscription - the suspension limit has been "
+#~ "reached. Please contact us if you need assistance."
+#~ msgstr ""
+#~ "Non puoi sospendere questa sottoscrizione - il limite di sospensioni è "
+#~ "stato raggiunto. Scrivici se hai bisogno di assistenza."
+
+#~ msgid "Subscription cancelled by the subscriber from their account page."
+#~ msgstr "Abbonamento cancellato dall'abbonato dalla pagina account."
+
+#~ msgid "Your subscription has been cancelled."
+#~ msgstr "Il tuo Abbonamento è stato cancellato."
+
+#~ msgid ""
+#~ "That subscription does not exist. Please contact us if you need "
+#~ "assistance."
+#~ msgstr ""
+#~ "Questo Abbonamento non esiste. Si prega di contattarci per assistenza."
+
+#~ msgid ""
+#~ "That subscription can not be changed to %s. Please contact us if you need "
+#~ "assistance."
+#~ msgstr ""
+#~ "Questo abbonamento non può essere cambiato in %s. Si prega di contattarci "
+#~ "per assistenza."
+
+#~ msgid ""
+#~ "Could not get subscription. Most likely the subscription key does not "
+#~ "refer to a subscription. The key was: \"%s\"."
+#~ msgstr ""
+#~ "Non puoi ottenere la sottoscrizione. Molto probabilmente la chiave di "
+#~ "abbonamento non fa riferimento a una sottoscrizione. La chiave è stata: "
+#~ "\"%s\"."
+
+#~ msgid "Sign-up complete."
+#~ msgstr "Registrazione completa."
+
+#~ msgid "no"
+#~ msgstr "no"
+
+#~ msgid "Change Address"
+#~ msgstr "Cambia indirizzo"
+
+#~ msgid "Update the %1$s used for all of my active subscriptions"
+#~ msgstr "Update the %1$s used for all of my active subscriptions"
+
+#~ msgid "Recurrence"
+#~ msgstr "Ripetizione"
+
+#~ msgid "Non-repeating"
+#~ msgstr "Non ripetibile"
+
+#~ msgid "$type passed to the function was not a string."
+#~ msgstr "$ il tipo passato alla funzione non era una stringa."
+
+#~ msgid "Invalid data. No valid subscription / order was passed in."
+#~ msgstr ""
+#~ "Dati non validi. Nessun abbonamento/ordine valido è stata approvato."
+
+#~ msgid "Invalid data. No valid item id was passed in."
+#~ msgstr ""
+#~ "Dati non validi. Nessun elemento di identità valido è stato approvato."
+
+#~ msgid ""
+#~ "Sorry, it seems there are no available payment methods which support "
+#~ "subscriptions. Please contact us if you require assistance or wish to "
+#~ "make alternate arrangements."
+#~ msgstr ""
+#~ "Siamo spiacenti, sembra che non ci sia alcun metodo di pagamento "
+#~ "disponibile per gli abbonamenti. Contattaci se hai bisogno di assistenza "
+#~ "o desideri prendere accordi alternativi."
+
+#~ msgid "%1$s every %2$s"
+#~ msgstr "%1$s ogni %2$s"
+
+#~ msgid "%1$s after %2$s free trial"
+#~ msgstr "%1$s dopo %2$s la prova gratuita"
+
+#~ msgid "%1$s free trial then %2$s"
+#~ msgstr "%1$s prova gratuita poi %2$s"
+
+#~ msgid "Recurring Product Discount"
+#~ msgstr "Sconto ricorrente sul prodotto"
+
+#~ msgid "Recurring Product % Discount"
+#~ msgstr "Sconto % ricorrente sul prodotto"
+
+#~ msgid ""
+#~ "Sorry, this coupon is only valid for an initial payment and the cart does "
+#~ "not require an initial payment."
+#~ msgstr ""
+#~ "Siamo spiacenti, questo coupon è valido solo per un pagamento iniziale ed "
+#~ "il carrello non richiede un pagamento iniziale."
+
+#~ msgid "Sorry, this coupon is only valid for new subscriptions."
+#~ msgstr "Spiacenti, questo coupon è valido solo per nuovi abbonamenti"
+
+#~ msgid "Sorry, this coupon is only valid for subscription products."
+#~ msgstr ""
+#~ "Siamo spiacenti, questo coupon è valido solo per le sottoscrizioni a "
+#~ "servizi."
+
+#~ msgid "Sorry, the \"%1$s\" coupon is only valid for renewals."
+#~ msgstr "Siamo spiacenti, il coupon \"%1$s\" è valido solo per i rinnovi."
+
+#~ msgid "Renewal % discount"
+#~ msgstr "Renewal % discount"
+
+#~ msgid "Renewal product discount"
+#~ msgstr "Sconto prodotto rinnovo"
+
+#~ msgid "Renewal cart discount"
+#~ msgstr "Sconto Rinnovo carrello"
+
+#~ msgid "Renewal Discount"
+#~ msgstr "Sconto rinnovo"
+
+#~ msgid ""
+#~ "An invoice has been created for you to renew your subscription with %1$s. "
+#~ "To pay for this invoice please use the following link: %2$s"
+#~ msgstr ""
+#~ "Una fattura è stata creata per rinnovare il tuo abbonamento con %s. Per "
+#~ "pagare per questa fattura si prega di utilizzare il seguente link: %s"
+
+#~ msgid ""
+#~ "The automatic payment to renew your subscription with %1$s has failed. To "
+#~ "reactivate the subscription, please login and pay for the renewal from "
+#~ "your account page: %2$s"
+#~ msgstr ""
+#~ "Il pagamento automatico per rinnovare il tuo abbonamento %1$s è fallito. "
+#~ "Per riattivare il tuo abbonamento, fai login e paga per il rinnovo dalla "
+#~ "pagina il mio account: %2$s"
+
+#~ msgid ""
+#~ "You have received a subscription renewal order from %1$s. Their order is "
+#~ "as follows:"
+#~ msgstr ""
+#~ "Hai ricevuto un ordine di rinnovo dell'abbonamento da  %s.L'ordine è il "
+#~ "seguente:"
+
+#~ msgid ""
+#~ "A subscription belonging to %1$s has been cancelled. Their subscription's "
+#~ "details are as follows:"
+#~ msgstr ""
+#~ "Un abbonamento appartenente a %1$s è stato cancellato. I dettagli "
+#~ "dell'abbonamento sono i seguenti:"
+
+#~ msgid "Last Order Date: %s"
+#~ msgstr "Ultima data dell’ordine: %s"
+
+#~ msgid "End of Prepaid Term: %s"
+#~ msgstr "Scadenza Termine Prepagato: %s"
+
+#~ msgid "View Subscription: %s"
+#~ msgstr "Vedi l’abbonamento: %s"
+
+#~ msgid ""
+#~ "Hi there. Your subscription renewal order with %s has been completed. "
+#~ "Your order details are shown below for your reference:"
+#~ msgstr ""
+#~ "Ciao. Il tuo ordine su %s è stato completato. I dettagli del tuo ordine "
+#~ "sono mostrati sotto come promemoriao:"
+
+#~ msgid ""
+#~ "Your subscription renewal order has been received and is now being "
+#~ "processed. Your order details are shown below for your reference:"
+#~ msgstr ""
+#~ "Il tuo ordine di rinnovo abbonamento è stato ricevuto ed è in "
+#~ "elaborazione. I dettagli dell'ordine sono i seguenti:"
+
+#~ msgid "Order number: %s"
+#~ msgstr "Numero d’ordine: %s"
+
+#~ msgid "Order date: %s"
+#~ msgstr "Data ordine: %s"
+
+#~ msgid "Subscription Number: %s"
+#~ msgstr "Numero dell’abbonamento: %s"
+
+#~ msgid ""
+#~ "A subscription belonging to %1$s has expired. Their subscription's "
+#~ "details are as follows:"
+#~ msgstr ""
+#~ "Un abbonamento appartenente a %1$s è scaduto. I dettagli dell'abbonamento "
+#~ "sono i seguenti:"
+
+#~ msgid "End Date: %s"
+#~ msgstr "Data Fine: %s"
+
+#~ msgid ""
+#~ "A subscription belonging to %1$s has been suspended by the user. Their "
+#~ "subscription's details are as follows:"
+#~ msgstr ""
+#~ "Un abbonamento intestato a %1$s è stato sospeso dall’utente. Ecco i "
+#~ "dettagli qui di seguito"
+
+#~ msgid "Last Order: %s"
+#~ msgstr "Ultimo Ordine: %s"
+
+#~ msgid "Date Suspended: %s"
+#~ msgstr "Data di sospensione: %s"
+
+#~ msgid "Subscription Information:"
+#~ msgstr "Informazioni sull’abbonamento:"
+
+#~ msgid "Subscription: %s"
+#~ msgstr "Abbonamento: %s"
+
+#~ msgid "Start Date: %s"
+#~ msgstr "Data inizio: %s"
+
+#~ msgid "When Cancelled"
+#~ msgstr "Quando Annullato"
+
+#~ msgid "Price: %s"
+#~ msgstr "Prezzo: %s"
+
+#~ msgid "Next Payment on"
+#~ msgstr "Prossimo Pagamento"
+
+#~ msgid "Clear"
+#~ msgstr "Pulisci"
+
+#~ msgid "Choose the subscription price, billing interval and billing period."
+#~ msgstr ""
+#~ "Segli il prezzo dell'abbonamento, intervallo di fatturazione ed il periodo"
+
+#~ msgid ""
+#~ "Automatically expire the subscription after this length of time. This "
+#~ "length is in addition to any free trial or amount of time provided before "
+#~ "a synchronised first renewal date."
+#~ msgstr ""
+#~ "Scadenza automatica dell'abbonamento dopo questo periodo di tempo. Questa "
+#~ "durata è in aggiunta a qualsiasi periodo di prova o altri periodi "
+#~ "precedentemente assegnati."
+
+#~ msgid "Subscriptions will appear here once purchased by a customer."
+#~ msgstr ""
+#~ "Le sottoscrizioni verranno visualizzati qui una volta acquistato da un "
+#~ "cliente."
+
+#~ msgid "%sMore about managing subscriptions &raquo;%s"
+#~ msgstr "sMore %sulla gestione abbonamenti» %s"
+
+#~ msgid "%sAdd a subscription product &raquo;%s"
+#~ msgstr "%sAggiungi un prodotto di sottoscrizione »%s"
+
+#~ msgid "Variable Subscription"
+#~ msgstr "Abbonamento Variabile"

@@ -1,0 +1,2079 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-01-05 11:02+0530\n"
+"PO-Revision-Date: 2018-02-14 13:16+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: hf-base-functions.php:126
+msgid ""
+"Invalid date. The date must be a string and of the format: \"Y-m-d H:i:s\"."
+msgstr "Ogiltigt%s datum. Datumet måste vara av formatet:  \"Y-m-d H:i:s\"."
+
+#: hf-base-functions.php:128
+msgid "Subscription start date must be before current day."
+msgstr "Prenumerationens startdatum måste vara före dagens datum."
+
+#: hf-base-functions.php:132
+msgid "Invalid subscription customer_id."
+msgstr "Ogiltig prenumerations customer_id."
+
+#: hf-base-functions.php:136
+msgid "Invalid subscription billing period given."
+msgstr "Ogiltig prenumerations faktureringsperiod ges."
+
+#: hf-base-functions.php:140
+msgid ""
+"Invalid subscription billing interval given. Must be an integer greater than "
+"0."
+msgstr ""
+"Ogiltig prenumeration faktureringsintervall ges. Måste vara ett heltal "
+"större än 0."
+
+#: hf-base-functions.php:148
+msgid "%b %d, %Y @ %I:%M %p"
+msgstr "%b %d, %Y @ %I:%M %p"
+
+#: hf-base-functions.php:149
+#, php-format
+msgid "Subscription &ndash; %s"
+msgstr "Prenumeration &ndash; %s"
+
+#: hf-base-functions.php:163
+msgid "Invalid subscription status given."
+msgstr "Ogiltig prenumerationsstatus."
+
+#: hf-base-functions.php:190 includes/common/subscriptions-manager.php:596
+msgid "Pending"
+msgstr "Avvaktande"
+
+#: hf-base-functions.php:191 includes/common/subscriptions-manager.php:587
+msgid "Active"
+msgstr "Aktiv"
+
+#: hf-base-functions.php:192
+msgid "On hold"
+msgstr "I väntläge"
+
+#: hf-base-functions.php:193 includes/common/subscriptions-manager.php:590
+msgid "Cancelled"
+msgstr "Avslutad"
+
+#: hf-base-functions.php:194
+msgid "Switched"
+msgstr "Ändrad"
+
+#: hf-base-functions.php:195 includes/common/subscriptions-manager.php:593
+msgid "Expired"
+msgstr "Utgången"
+
+#: hf-base-functions.php:196
+msgid "Pending Cancellation"
+msgstr "Uppsagt (avslutas när betald period upphör)."
+
+#: hf-base-functions.php:205
+msgid "Can not get status name. Status is not a string."
+msgstr "Det går inte att få statusnamn. Status är inte en sträng."
+
+#: hf-base-functions.php:217
+msgid "Can not get address type display name. Address type is not a string."
+msgstr ""
+"Det går inte att få adresstypens visningsnamn. Adresstyp är inte en sträng."
+
+#: hf-base-functions.php:221
+msgid "Shipping Address"
+msgstr "Leveransadress"
+
+#: hf-base-functions.php:222
+msgid "Billing Address"
+msgstr "Faktureringsadress"
+
+#: hf-base-functions.php:232 includes/admin/subscription-management.php:305
+msgid "Start Date"
+msgstr "Startdatum"
+
+#: hf-base-functions.php:233 includes/admin/subscription-management.php:306
+msgid "Next Payment"
+msgstr "Nästa betalning"
+
+#: hf-base-functions.php:234 includes/admin/subscription-management.php:307
+#: templates/myaccount/view-subscription.php:29
+msgid "Last Order Date"
+msgstr "Senaste orderdatum"
+
+#: hf-base-functions.php:235
+msgid "Cancelled Date"
+msgstr "Avbrutendatum"
+
+#: hf-base-functions.php:236 includes/admin/subscription-management.php:308
+#: templates/myaccount/view-subscription.php:31
+msgid "End Date"
+msgstr "Slutdatum"
+
+#: hf-base-functions.php:256
+msgid "Date type is not a string."
+msgstr "Datumtyp är inte en sträng."
+
+#: hf-base-functions.php:258
+msgid "Date type can not be an empty string."
+msgstr "Datumstyp kan inte vara en tom sträng."
+
+#: includes/admin/meta-boxes/related-orders-row.php:21
+#: includes/admin/subscription-management.php:478
+msgid "Y/m/d g:i:s A"
+msgstr "d-m-Y g:i:s"
+
+#: includes/admin/meta-boxes/related-orders-row.php:24
+msgid "Unpublished"
+msgstr "Opublicerad"
+
+#: includes/admin/meta-boxes/subscription-data-meta-box.php:120
+#, php-format
+msgid "Gateway ID: [%s]"
+msgstr "Gateway-ID: [%s]"
+
+#: includes/admin/meta-boxes/subscription-data-meta-box.php:270
+#, php-format
+msgid "Error updating some information: %s"
+msgstr "Fel vid uppdatering av viss information:%s"
+
+#: includes/admin/meta-boxes/subscription-related-orders-meta-box.php:36
+#: includes/admin/subscription-management.php:302
+#: xa-woocommerce-subscriptions.php:152
+msgid "Subscription"
+msgstr "Prenumeration"
+
+#: includes/admin/meta-boxes/subscription-related-orders-meta-box.php:56
+msgid "Resubscribed Subscription"
+msgstr "Återupptagen prenumeration"
+
+#: includes/admin/meta-boxes/subscription-related-orders-meta-box.php:64
+msgid "Initial Subscription"
+msgstr "Ursprunglig prenumeration"
+
+#: includes/admin/meta-boxes/subscription-related-orders-meta-box.php:72
+msgid "Parent Order"
+msgstr "Första beställning"
+
+#: includes/admin/meta-boxes/subscription-related-orders-meta-box.php:81
+msgid "Renewal Order"
+msgstr "Förnyelse av prenumeration"
+
+#: includes/admin/meta-boxes/subscription-scheduler.php:17
+msgid "Recurring:"
+msgstr "Återkommande:"
+
+#: includes/admin/meta-boxes/subscription-scheduler.php:26
+msgid "Billing Period"
+msgstr "Betalningsperiod"
+
+#: includes/admin/subscription-management.php:162
+msgid "Activate"
+msgstr "Aktivera"
+
+#: includes/admin/subscription-management.php:163
+msgid "Put on-hold"
+msgstr "Pausa"
+
+#: includes/admin/subscription-management.php:164
+#: includes/admin/subscription-management.php:345
+#: includes/common/subscriptions-manager.php:708
+#: includes/user-functions.php:203
+msgid "Cancel"
+msgstr "Avsluta"
+
+#: includes/admin/subscription-management.php:229
+msgid "Subscription status changed by bulk edit:"
+msgstr "Prenumerationsstatus som ändrades genom massredigering:"
+
+#: includes/admin/subscription-management.php:301
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:120
+#: templates/myaccount/subscriptions.php:23
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin/subscription-management.php:303
+msgid "Items"
+msgstr "Produkter"
+
+#: includes/admin/subscription-management.php:304
+#: templates/myaccount/subscriptions.php:25
+msgid "Total"
+msgstr "Total"
+
+#: includes/admin/subscription-management.php:309
+msgid "Orders"
+msgstr "Ordrar"
+
+#: includes/admin/subscription-management.php:343
+#: includes/user-functions.php:190
+msgid "Reactivate"
+msgstr "Återaktivera"
+
+#: includes/admin/subscription-management.php:344
+msgid "Suspend"
+msgstr "Pausa"
+
+#: includes/admin/subscription-management.php:346
+#: includes/admin/subscription-management.php:361
+msgid "Trash"
+msgstr "Skräp"
+
+#: includes/admin/subscription-management.php:347
+#: includes/admin/subscription-management.php:365
+msgid "Delete Permanently"
+msgstr "Radera permanent"
+
+#: includes/admin/subscription-management.php:359
+msgid "Restore this item from the Trash"
+msgstr "Återställ detta objekt från papperskorgen"
+
+#: includes/admin/subscription-management.php:359
+#: includes/subscriptions-product.php:362
+msgid "Restore"
+msgstr "Återställ"
+
+#: includes/admin/subscription-management.php:361
+msgid "Move this item to the Trash"
+msgstr "Flytta till Papperskorg"
+
+#: includes/admin/subscription-management.php:365
+msgid "Delete this item permanently"
+msgstr "Radera detta objekt permanent"
+
+#: includes/admin/subscription-management.php:371
+msgid "Cancel Now"
+msgstr "Avsluta nu"
+
+#: includes/admin/subscription-management.php:399
+msgid "Billing:"
+msgstr "Betalning:"
+
+#: includes/admin/subscription-management.php:403
+#, php-format
+msgid "Email: %s"
+msgstr "Email: %s"
+
+#: includes/admin/subscription-management.php:407
+#, php-format
+msgid "Tel: %s"
+msgstr "Tel: %s"
+
+#: includes/admin/subscription-management.php:433
+#, php-format
+msgid "%1$s#%2$s%3$s for %4$s"
+msgstr "%1$s#%2$s%3$s för %4$s"
+
+#: includes/admin/subscription-management.php:435
+msgid "Show more details"
+msgstr "Visa mer detaljer"
+
+#: includes/admin/subscription-management.php:465
+#: templates/myaccount/subscriptions.php:44
+#, php-format
+msgid "Via %s"
+msgstr "Via %s"
+
+#: includes/admin/subscription-management.php:692
+#: includes/admin/subscription-management.php:695
+#: includes/admin/subscription-management.php:697
+msgid "Subscription updated."
+msgstr "Prenumerationen uppdaterades."
+
+#: includes/admin/subscription-management.php:693
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:455
+msgid "Custom field updated."
+msgstr "Custom Field uppdaterat."
+
+#: includes/admin/subscription-management.php:694
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:456
+msgid "Custom field deleted."
+msgstr "Det anpassade fältet har tagits bort."
+
+#: includes/admin/subscription-management.php:696
+#, php-format
+msgid "Subscription restored to revision from %s"
+msgstr "Prenumerationspaket återställd till revidering från %s"
+
+#: includes/admin/subscription-management.php:698
+msgid "Subscription saved."
+msgstr "Prenumeration sparad."
+
+#: includes/admin/subscription-management.php:699
+msgid "Subscription submitted."
+msgstr "Prenumeration skickad."
+
+#: includes/admin/subscription-management.php:700
+#, php-format
+msgid "Subscription scheduled for: %1$s."
+msgstr "Prenumeration schemalagd till: %1$s."
+
+#: includes/admin/subscription-management.php:700
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:462
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: includes/admin/subscription-management.php:701
+msgid "Subscription draft updated."
+msgstr "Abonnemang utkast uppdateras."
+
+#: includes/admin/subscription-meta-boxes.php:48
+msgid "Subscription Data"
+msgstr "Prenumerationsdata"
+
+#: includes/admin/subscription-meta-boxes.php:49
+msgid "Billing Schedule Data"
+msgstr "Betalningsschema"
+
+#: includes/admin/subscription-meta-boxes.php:51
+#: includes/admin/subscription-meta-boxes.php:54
+msgid "Related Orders"
+msgstr "Relaterade beställningar"
+
+#: includes/admin/subscription-meta-boxes.php:80
+msgid "Please enter a start date in the past."
+msgstr "Ange ett startdatum i det förflutna."
+
+#: includes/admin/subscription-meta-boxes.php:81
+msgid "Please enter a date at least one hour into the future."
+msgstr "Vänligen ange ett datum minst en timme in i framtiden."
+
+#: includes/admin/subscription-meta-boxes.php:82
+msgid "Please enter a date after the trial end."
+msgstr "Ange ett datum efter provperiodens slut."
+
+#: includes/admin/subscription-meta-boxes.php:83
+msgid ""
+"Are you sure you want to process a renewal?\n"
+"\n"
+"This will charge the customer and email them the renewal order (if emails "
+"are enabled)."
+msgstr ""
+"Är du säker på att du vill förlänga prenumerationen? Detta kommer att "
+"debitera kunden och ett mail kommer att skickas till kunden. (om e-post är "
+"aktiverad)."
+
+#: includes/admin/subscription-meta-boxes.php:90
+msgid ""
+"Are you sure you want to retry payment for this renewal order?\n"
+"\n"
+"This will attempt to charge the customer and send renewal order emails."
+msgstr ""
+"Är du säker på att du vill försöka dra beloppet igen?\n"
+"Beloppet kommer att dras från kunden och ett mail med info om förnyad "
+"prenumeration kommer att skickas till kunden (om e-mail är aktiverad)."
+
+#: includes/admin/subscription-meta-boxes.php:119
+msgid "Process renewal order action requested by admin."
+msgstr "En admin behöver godkänna förnyelsen."
+
+#: includes/admin/subscription-meta-boxes.php:130
+msgid "Create pending renewal order requested by admin action."
+msgstr "Skapa väntan förnyelse ordning som begärts av admin åtgärder."
+
+#: includes/admin/subscriptions-admin.php:72
+msgid "Simple subscription"
+msgstr "Enkel prenumeration"
+
+#: includes/admin/subscriptions-admin.php:73
+msgid "Variable subscription"
+msgstr "Variabel prenumeration"
+
+#: includes/admin/subscriptions-admin.php:324
+#, php-format
+msgid ""
+"Unable to change subscription status to \"%s\". Please assign a customer to "
+"the subscription to activate it."
+msgstr ""
+"Kunde inte ändra prenumerationens status till \"%s\". Vänligen tilldela en "
+"kund till prenumerationen för att aktivera den."
+
+#: includes/admin/subscriptions-admin.php:378
+msgid ""
+"Trashing this order will also trash the subscriptions purchased with the "
+"order."
+msgstr ""
+"Kastar du denna order prenumerationer som köpts samtidigt också kastas."
+
+#: includes/admin/subscriptions-admin.php:390
+msgid "Enter the new period, either day, week, month or year:"
+msgstr "Ange den nya perioden, antingen dag, vecka, månad eller år:"
+
+#: includes/admin/subscriptions-admin.php:391
+msgid "Enter a new length (e.g. 5):"
+msgstr "Ange en ny längd (t ex 5):"
+
+#: includes/admin/subscriptions-admin.php:392
+msgid ""
+"Enter a new interval as a single number (e.g. to charge every 2nd month, "
+"enter 2):"
+msgstr ""
+"Ange ett nytt intervall som ett enda nummer (t ex för att debitera var 2a "
+"månad, ange 2):"
+
+#: includes/admin/subscriptions-admin.php:396
+msgid ""
+"You are about to trash one or more orders which contain a subscription.\n"
+"\n"
+"Trashing the orders will also trash the subscriptions purchased with these "
+"orders."
+msgstr ""
+"Du är på väg att kasta en eller flera ordrar som innehåller en "
+"prenumeration.\n"
+"\n"
+"Om du kastar ordrarna kommer prenumerationerna som köptes med ordrarna också "
+"kastas."
+
+#: includes/admin/subscriptions-admin.php:413
+msgid ""
+"Warning: Deleting a user will also delete the user's subscriptions. The "
+"user's orders will remain but be reassigned to the 'Guest' user.\n"
+"\n"
+"Do you want to continue to delete this user and any associated subscriptions?"
+msgstr ""
+"Varning: Om du tar bort en användare kommer du också att ta bort användarens "
+"prenumeration. Användarens order kommer att finnas kvar men tilldelas ”Gäst” "
+"användaren. \n"
+"\n"
+"Vill du fortsätta att ta bort den här användaren och alla tillhörande "
+"prenumerationer?"
+
+#: includes/admin/subscriptions-admin.php:432
+msgid "Active subscriber"
+msgstr "Prenumerant?"
+
+#: includes/admin/subscriptions-admin.php:453
+#: includes/admin/subscriptions-admin.php:514
+#: includes/admin/subscriptions-admin.php:524
+#: includes/frontend-loader/subscription-account-view.php:69
+#: includes/frontend-loader/subscription-account-view.php:82
+#: includes/frontend-loader/subscription-account-view.php:86
+msgid "Subscriptions"
+msgstr "Prenumerationer"
+
+#: includes/admin/subscriptions-admin.php:485
+#: xa-woocommerce-subscriptions.php:151 xa-woocommerce-subscriptions.php:164
+msgid "HF Subscriptions"
+msgstr "HF-prenumerationer"
+
+#: includes/admin/subscriptions-admin.php:503
+msgid "Manage Text"
+msgstr "Hantera Text"
+
+#: includes/admin/subscriptions-admin.php:509
+msgid "My Account Tab Title"
+msgstr "Min konto fliken titel"
+
+#: includes/admin/subscriptions-admin.php:510
+msgid "My Account Tab Title for subscription listing page."
+msgstr "Min konto fliken titel för notering sida-prenumeration."
+
+#: includes/admin/subscriptions-admin.php:519
+msgid "My Account Tab Text"
+msgstr "Min konto fliken Text"
+
+#: includes/admin/subscriptions-admin.php:520
+msgid "My Account Tab Text for subscription listing page."
+msgstr "Min konto fliken Text för notering sida-prenumeration."
+
+#: includes/admin/subscriptions-admin.php:529
+msgid "Add to Cart Button Text"
+msgstr "Knapptext för Lägg till i varukorgen"
+
+#: includes/admin/subscriptions-admin.php:530
+msgid "Add to Cart Button Text on product page."
+msgstr "Lägg till varukorg Knapptext på produktsidan."
+
+#: includes/admin/subscriptions-admin.php:534
+#: includes/admin/subscriptions-admin.php:544
+#: includes/components/product-subscription-variation.php:48
+#: includes/components/product-subscription-variation.php:50
+#: includes/components/product-subscription.php:34
+#: includes/components/product-subscription.php:36
+#: includes/components/product-variable-subscription.php:34
+#: includes/components/product-variable-subscription.php:36
+#: includes/subscriptions-product.php:36 includes/subscriptions-product.php:38
+#: xa-woocommerce-subscriptions.php:326 xa-woocommerce-subscriptions.php:328
+msgid "Subscribe"
+msgstr "Prenumerera"
+
+#: includes/admin/subscriptions-admin.php:539
+msgid "Place Order Button Text"
+msgstr "Knapptext för \"Lägg order\" knapp"
+
+#: includes/admin/subscriptions-admin.php:540
+msgid ""
+"Place Order Button Text in checkout Page when an order contains a "
+"subscription."
+msgstr ""
+"Placera Order Knapptext i kassan sida när en order innehåller en "
+"prenumeration."
+
+#: includes/admin/subscriptions-admin.php:551
+msgid "Other"
+msgstr "Annat"
+
+#: includes/admin/subscriptions-admin.php:558
+msgid "Allow Mixed Checkout"
+msgstr "Tillåt blandade kassan"
+
+#: includes/admin/subscriptions-admin.php:559
+msgid ""
+"Allow subscription products and normal products to be purchased together."
+msgstr "Tillåt prenumeration och normala produkter köpas tillsammans."
+
+#: includes/admin/subscriptions-admin.php:609
+#, php-format
+msgid "We can't find a subscription with ID #%d. Perhaps it was deleted?"
+msgstr ""
+"Vi kan inte hitta en prenumeration med IDt #%d. Kanske har den tagits bort?"
+
+#: includes/admin/subscriptions-admin.php:687
+msgid "HForce_DEBUG"
+msgstr "HForce_DEBUG"
+
+#: includes/admin/subscriptions-admin.php:688
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/admin/subscriptions-admin.php:688
+msgid "No"
+msgstr "Nej"
+
+#: includes/admin/subscriptions-admin.php:698
+msgid "This section shows any information about Hikeforce Subscriptions."
+msgstr "Denna sektionen visar all information om prenumerationer."
+
+#: includes/admin/subscriptions-admin.php:732
+msgid "Auto Recurring Payments"
+msgstr "Auto återkommande betalningar"
+
+#: includes/admin/subscriptions-admin.php:772
+msgid "Subscription items can no longer be edited."
+msgstr "Prenumerationsobjekt kan inte längre redigeras."
+
+#: includes/admin/subscriptions-admin.php:775
+msgid ""
+"This subscription is no longer editable because the payment gateway does not "
+"allow modification of recurring amounts."
+msgstr ""
+"Denna prenumeration kan inte redigeras längre eftersom betalningsgatewayen "
+"inte tillåter ändring av återkommande belopp."
+
+#: includes/admin/subscriptions-admin.php:787
+msgid ""
+"No payment gateways capable of processing automatic subscription payments "
+"are enabled."
+msgstr ""
+"Ingen betalning gateways kan bearbeta automatisk prenumerationsbetalningar "
+"är aktiverade."
+
+#: includes/admin/subscriptions-admin.php:792
+msgid "Recurring Payments"
+msgstr "Återkommande betalningar"
+
+#: includes/common/account-payment-tokens.php:84
+#, php-format
+msgid ""
+"Payment method meta updated after customer deleted a token from their My "
+"Account page. Payment meta changed from %1$s to %2$s"
+msgstr ""
+"Betalnings metod meta uppdaterad efter kunden bort en token från deras "
+"Mittkonto-sida. Betalning meta ändrats från %1$s %2$s"
+
+#: includes/common/account-payment-tokens.php:126
+#, php-format
+msgid "%s ending in %s"
+msgstr "%s slutar om %s"
+
+#: includes/common/add-remove-item.php:39
+#, php-format
+msgid "Subscription #%d does not exist."
+msgstr "Prenumerations #%d existerar inte."
+
+#: includes/common/add-remove-item.php:71
+#, php-format
+msgid "Customer added \"%1$s\" (Product ID: #%2$d) via the My Account page."
+msgstr "Customer added \"%1$s\" (Product ID: #%2$d) via the My Account page."
+
+#: includes/common/add-remove-item.php:73
+msgid "Your request to undo your previous action was unsuccessful."
+msgstr "Din begäran att ångra den föregående åtgärden misslyckades."
+
+#: includes/common/add-remove-item.php:85
+#, php-format
+msgid "Customer removed \"%1$s\" (Product ID: #%2$d) via the My Account page."
+msgstr "Customer removed \"%1$s\" (Product ID: #%2$d) via the My Account page."
+
+#: includes/common/add-remove-item.php:86
+#, php-format
+msgid ""
+"You have successfully removed \"%1$s\" from your subscription. %2$sUndo?%3$s"
+msgstr "Du har nu tagit bort \"%1$s\" från din prenumeration. %2$sÅngra?%3$s"
+
+#: includes/common/add-remove-item.php:103
+#: includes/common/user-change-status-handler.php:76
+msgid "Security error. Please contact us if you need assistance."
+msgstr "Säkerhetsfel. Kontakta oss om du behöver hjälp."
+
+#: includes/common/add-remove-item.php:105
+msgid "You cannot modify a subscription that does not belong to you."
+msgstr "Du kan inte ändra en prenumeration som inte tillhör dig själv."
+
+#: includes/common/add-remove-item.php:107
+msgid "You cannot remove an item that does not exist. "
+msgstr "Du kan inte ta bort ett objekt som inte existerar."
+
+#: includes/common/add-remove-item.php:109
+msgid ""
+"The item was not removed because this Subscription's payment method does not "
+"support removing an item."
+msgstr ""
+"Artikeln har inte tagits bort eftersom denna prenumerations betalningsmetod "
+"inte stöder att ta bort ett objekt."
+
+#: includes/common/cached-data-manager.php:124
+msgid "Weekly"
+msgstr "Varje vecka"
+
+#: includes/common/cart-initial-payment.php:36
+#: includes/common/cart-renewal.php:91
+msgid "That doesn't appear to be your order."
+msgstr "Det verkar inte som din beställning."
+
+#: includes/common/cart-renewal.php:113
+msgid "Complete checkout to renew your subscription."
+msgstr "Fyll i alla uppgifter i kassan för att förnya din prenumeration."
+
+#: includes/common/cart-renewal.php:185
+#, php-format
+msgid ""
+"The %s product has been deleted and can no longer be renewed. Please choose "
+"a new product or contact us for assistance."
+msgstr ""
+"Produkten %s har tagits bort och inte längre kan förnyas. Välj en ny produkt "
+"eller kontakta oss för hjälp."
+
+#: includes/common/cart-resubscribe.php:41
+msgid "There was an error with your request to resubscribe. Please try again."
+msgstr "Det uppstod ett fel med din förfrågan. Var god försök igen."
+
+#: includes/common/cart-resubscribe.php:44
+msgid "That subscription does not exist. Has it been deleted?"
+msgstr "Prenumerationen existerar inte. Har den tagits bort?"
+
+#: includes/common/cart-resubscribe.php:47
+#: includes/common/cart-resubscribe.php:95
+#: includes/common/user-change-status-handler.php:80
+msgid "That doesn't appear to be one of your subscriptions."
+msgstr "Det verkar inte vara en av dina prenumerationer."
+
+#: includes/common/cart-resubscribe.php:50
+msgid ""
+"You can not resubscribe to that subscription. Please contact us if you need "
+"assistance."
+msgstr ""
+"Du kan inte förnya denna prenumerationen. Kontakta oss om du behöver hjälp."
+
+#: includes/common/cart-resubscribe.php:58
+#: includes/common/cart-resubscribe.php:85
+msgid "Complete checkout to resubscribe."
+msgstr "Komplet utcheckning för att prenumerera på nytt."
+
+#: includes/common/cart-resubscribe.php:204
+#, php-format
+msgid "Customer resubscribed in order #%s"
+msgstr "Kunden har förnyat order #%s"
+
+#: includes/common/email_notification/cancelled-subscription.php:13
+msgid "Cancelled Subscription"
+msgstr "Avslutad prenumeration"
+
+#: includes/common/email_notification/cancelled-subscription.php:14
+msgid ""
+"Cancelled Subscription emails are sent when a customer's subscription is "
+"cancelled (either by a store manager, or the customer)."
+msgstr ""
+"Avbrutna prenumerations e-postmeddelanden skickas när en kunds abonnemang "
+"avbryts (antingen genom en butikschef, eller kunden)."
+
+#: includes/common/email_notification/cancelled-subscription.php:16
+msgid "Subscription Cancelled"
+msgstr "Prenumeration avslutad."
+
+#: includes/common/email_notification/cancelled-subscription.php:17
+#, php-format
+msgid "[%s] Subscription Cancelled"
+msgstr "[%s] Prenumeration avslutad"
+
+#: includes/common/email_notification/cancelled-subscription.php:80
+#: includes/common/email_notification/expired-subscription.php:87
+#: includes/common/email_notification/on-hold-subscription.php:86
+#: includes/common/email_notification/renewal-invoice.php:129
+msgid "Enable/Disable"
+msgstr "Aktivera/avaktivera"
+
+#: includes/common/email_notification/cancelled-subscription.php:82
+#: includes/common/email_notification/expired-subscription.php:89
+#: includes/common/email_notification/on-hold-subscription.php:88
+#: includes/common/email_notification/renewal-invoice.php:131
+msgid "Enable this email notification"
+msgstr "Aktivera denna e-postnotifikation"
+
+#: includes/common/email_notification/cancelled-subscription.php:86
+#: includes/common/email_notification/expired-subscription.php:93
+#: includes/common/email_notification/on-hold-subscription.php:92
+msgid "Recipient(s)"
+msgstr "Mottagare"
+
+#: includes/common/email_notification/cancelled-subscription.php:88
+#: includes/common/email_notification/expired-subscription.php:95
+#: includes/common/email_notification/on-hold-subscription.php:94
+#, php-format
+msgid ""
+"Enter recipients (comma separated) for this email. Defaults to <code>%s</"
+"code>."
+msgstr ""
+"Fyll i mottagare (separera med kommatecken) av detta e-postutskicket. "
+"Standardvärde: <code>%s</code>"
+
+#: includes/common/email_notification/cancelled-subscription.php:93
+#: includes/common/email_notification/expired-subscription.php:100
+#: includes/common/email_notification/on-hold-subscription.php:99
+msgid "Subject"
+msgstr "Ämne"
+
+#: includes/common/email_notification/cancelled-subscription.php:95
+#: includes/common/email_notification/expired-subscription.php:102
+#: includes/common/email_notification/on-hold-subscription.php:101
+#, php-format
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+"Detta bestämmer ämnet i mejlet. Lämna tomt för att använda standardvärdet: "
+"<code>%s</code>."
+
+#: includes/common/email_notification/cancelled-subscription.php:100
+#: includes/common/email_notification/expired-subscription.php:107
+#: includes/common/email_notification/on-hold-subscription.php:106
+msgid "Email Heading"
+msgstr "E-postrubrik"
+
+#: includes/common/email_notification/cancelled-subscription.php:102
+#: includes/common/email_notification/expired-subscription.php:109
+#: includes/common/email_notification/on-hold-subscription.php:108
+#, php-format
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+"Detta bestämmer sidhuvudet i e-postutskicket. Lämna tomt för att använda "
+"standardvärdet: <code>%s</code>."
+
+#: includes/common/email_notification/cancelled-subscription.php:107
+#: includes/common/email_notification/expired-subscription.php:114
+#: includes/common/email_notification/on-hold-subscription.php:113
+msgid "Email type"
+msgstr "E-postformat"
+
+#: includes/common/email_notification/cancelled-subscription.php:109
+#: includes/common/email_notification/expired-subscription.php:116
+#: includes/common/email_notification/on-hold-subscription.php:115
+msgid "Choose which format of email to send."
+msgstr "Välj e-postformat att skicka."
+
+#: includes/common/email_notification/cancelled-subscription.php:113
+#: includes/common/email_notification/expired-subscription.php:120
+#: includes/common/email_notification/on-hold-subscription.php:119
+msgid "Plain text"
+msgstr "Ren text"
+
+#: includes/common/email_notification/cancelled-subscription.php:114
+#: includes/common/email_notification/expired-subscription.php:121
+#: includes/common/email_notification/on-hold-subscription.php:120
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/common/email_notification/cancelled-subscription.php:115
+#: includes/common/email_notification/expired-subscription.php:122
+#: includes/common/email_notification/on-hold-subscription.php:121
+msgid "Multipart"
+msgstr "Flerdelad"
+
+#: includes/common/email_notification/completed-renewal-order.php:14
+msgid "Completed Renewal Order"
+msgstr "Genomförd förnyelseorder"
+
+#: includes/common/email_notification/completed-renewal-order.php:15
+msgid ""
+"Renewal order complete emails are sent to the customer when a subscription "
+"renewal order is marked complete and usually indicates that the item for "
+"that renewal period has been shipped."
+msgstr ""
+"Förnyelsebeställning fullständiga e-postmeddelanden skickas till kunden när "
+"en abonnemangsförnyelsebesked är märkt färdig och indikerar vanligtvis att "
+"föremålet för den förnyelseperioden har skickats."
+
+#: includes/common/email_notification/completed-renewal-order.php:18
+msgid "Your renewal order is complete"
+msgstr "Förnyelse av din prenumeration har genomförts"
+
+#: includes/common/email_notification/completed-renewal-order.php:19
+#, php-format
+msgid "Your %1$s renewal order from %2$s is complete"
+msgstr "%1$s förnyelsebeställning från %2$s har genomförts"
+
+#: includes/common/email_notification/completed-renewal-order.php:25
+msgid "Your subscription renewal order is complete - download your files"
+msgstr "Förnyelse av prenumeration har genomförts - ladda ner dina filer"
+
+#: includes/common/email_notification/completed-renewal-order.php:26
+#, php-format
+msgid ""
+"Your %1$s subscription renewal order from %2$s is complete - download your "
+"files"
+msgstr ""
+"Your %1$s subscription renewal order from %2$s is complete - download your "
+"files"
+
+#: includes/common/email_notification/expired-subscription.php:15
+msgid "Expired Subscription"
+msgstr "Utgången prenumeration"
+
+#: includes/common/email_notification/expired-subscription.php:16
+msgid ""
+"Expired Subscription emails are sent when a customer's subscription expires."
+msgstr ""
+"E-postmeddelande om avbruten prenumeration skickas när en kundends "
+"prenumeration löpt ut."
+
+#: includes/common/email_notification/expired-subscription.php:18
+msgid "Subscription Expired"
+msgstr "Prenumerationen har gått ut"
+
+#: includes/common/email_notification/expired-subscription.php:19
+#, php-format
+msgid "[%s] Subscription Expired"
+msgstr "[%s] Prenumerationen har gått ut"
+
+#: includes/common/email_notification/expired-subscription.php:40
+#: includes/common/email_notification/on-hold-subscription.php:39
+msgid "Subscription argument passed in is not an object."
+msgstr "Prenumerationsargumentet är inte ett objekt."
+
+#: includes/common/email_notification/new-renewal-order.php:14
+msgid "New Renewal Order"
+msgstr "Prenumerationsförnyelse"
+
+#: includes/common/email_notification/new-renewal-order.php:15
+msgid ""
+"New renewal order emails are sent when a subscription renewal payment is "
+"processed."
+msgstr ""
+"E-postutskicket \"Prenumerationsförnyelse\" skickas när betalningen för en "
+"förnyelsebeställning behandlas."
+
+#: includes/common/email_notification/new-renewal-order.php:17
+msgid "New subscription renewal order"
+msgstr "Ny förnyelse av prenumeration"
+
+#: includes/common/email_notification/new-renewal-order.php:18
+msgid ""
+"[{blogname}] New subscription renewal order ({order_number}) - {order_date}"
+msgstr "[{blogname}] Ny prenumerations order ({order_number}) - {order_date}"
+
+#: includes/common/email_notification/on-hold-subscription.php:14
+msgid "Suspended Subscription"
+msgstr "Avbruten prenumeration"
+
+#: includes/common/email_notification/on-hold-subscription.php:15
+msgid ""
+"Suspended Subscription emails are sent when a customer manually suspends "
+"their subscription."
+msgstr ""
+"Avbruten prenumeration e-postmeddelanden skickas när en kund avbryter sin "
+"prenumeration manuellt."
+
+#: includes/common/email_notification/on-hold-subscription.php:17
+msgid "Subscription Suspended"
+msgstr "Prenumeration avbruten"
+
+#: includes/common/email_notification/on-hold-subscription.php:18
+#, php-format
+msgid "[%s] Subscription Suspended"
+msgstr "[%s] Prenumeration avstängd"
+
+#: includes/common/email_notification/processing-renewal-order.php:14
+msgid "Processing Renewal order"
+msgstr "Bearbetar förnyelsebeställning"
+
+#: includes/common/email_notification/processing-renewal-order.php:15
+msgid ""
+"This is an order notification sent to the customer after payment for a "
+"subscription renewal order is completed. It contains the renewal order "
+"details."
+msgstr ""
+"Detta är en ordermeddelande som skickas till kunden efter betalning för en "
+"abonnemangsförnyelsebesked är klar. Den innehåller uppgifter om "
+"förnyelsebeslut."
+
+#: includes/common/email_notification/processing-renewal-order.php:18
+msgid "Thank you for your order"
+msgstr "Tack för din beställning"
+
+#: includes/common/email_notification/processing-renewal-order.php:19
+msgid "Your {blogname} renewal order receipt from {order_date}"
+msgstr "Kvitto på förnyelse av prenumeration på {blogname} {order_date}"
+
+#: includes/common/email_notification/renewal-invoice.php:17
+msgid "Renewal Due Invoice"
+msgstr "Förnyelse av förfallna avgifter"
+
+#: includes/common/email_notification/renewal-invoice.php:18
+msgid ""
+"Sent to a customer when the subscription is due for renewal and the renewal "
+"requires a manual payment, either because it uses manual renewals or the "
+"automatic recurring payment failed. The email contains renewal order "
+"information and payment links."
+msgstr ""
+"Skickas till en kund när prenumerationen ska förnyas och förnyelse kräver en "
+"manuell betalning, antingen eftersom den använder manuell förnyelse eller "
+"den automatiskt återkommande betalningen misslyckades i inledande- och "
+"automatiska återförsök (om något). Mailet innehåller förnyelsens "
+"beställningsinformation och betalningslänkar."
+
+#: includes/common/email_notification/renewal-invoice.php:25
+msgid "Invoice for renewal order {order_number} from {order_date}"
+msgstr "Faktura för förnyad beställning {order_number} den {beställning_date}"
+
+#: includes/common/email_notification/renewal-invoice.php:26
+msgid "Invoice for renewal order {order_number}"
+msgstr "Faktura för förnyad beställning {order_number}"
+
+#: includes/common/subscriptions-cart.php:428
+msgid "Please enter a valid postcode/ZIP."
+msgstr "Var vänlig uppge ett giltigt postnummer."
+
+#: includes/common/subscriptions-cart.php:545
+msgid ""
+"That subscription product can not be added to your cart as it already "
+"contains a subscription renewal."
+msgstr ""
+"Denna prenumerationsprodukten kan inte läggas till i din varukorg eftersom "
+"den redan innehåller en prenumerationsförnyelse."
+
+#: includes/common/subscriptions-cart.php:604
+msgid "Invalid recurring shipping method."
+msgstr "Ogiltigt återkommande fraktsätt."
+
+#: includes/common/subscriptions-checkout.php:115
+#: includes/common/subscriptions-checkout.php:246
+#, php-format
+msgid "Error %d: Unable to create subscription. Please try again."
+msgstr "Fel %d: Det går inte att skapa prenumerationen. Var god försök igen."
+
+#: includes/common/subscriptions-checkout.php:129
+#, php-format
+msgid "Error %d: Unable to add tax to subscription. Please try again."
+msgstr ""
+"Fel %d: Det går inte att lägga skatt till prenumeration. Var god försök igen."
+
+#: includes/common/subscriptions-checkout.php:139
+#, php-format
+msgid "Error %d: Unable to create order. Please try again."
+msgstr "Fel %d: Kunde inte skapa ordern. Var vänligen försök igen."
+
+#: includes/common/subscriptions-checkout.php:221
+#: includes/components/subscription.php:1476 includes/order-functions.php:217
+msgid "Backordered"
+msgstr "Restnoterad"
+
+#: includes/common/subscriptions-manager.php:39
+#: includes/common/subscriptions-manager.php:752
+msgid "Subscription renewal payment due:"
+msgstr "Abonnemang förnyelse betalning:"
+
+#: includes/common/subscriptions-manager.php:46
+msgid ""
+"Error: Unable to create renewal order from scheduled payment. Please try "
+"again."
+msgstr ""
+"Fel: Det går inte att skapa förnyelseorder från betalningstillfällen. Var "
+"god försök igen."
+
+#: includes/common/subscriptions-manager.php:78
+#: includes/payment-gateways.php:142
+#, php-format
+msgid "Subscription doesn't exist in scheduled action: %d"
+msgstr "Prenumeration existerar inte i schemalagd åtgärd: %d"
+
+#: includes/common/subscriptions-manager.php:154
+#, php-format
+msgid "Failed to activate subscription status for order #%1$s: %2$s"
+msgstr ""
+"Det gick inte att aktivera prenumerationsstatus för beställning #%1$s: %2$s"
+
+#: includes/common/subscriptions-manager.php:172
+#, php-format
+msgid ""
+"Failed to update subscription status after order #%1$s was put on-hold: %2$s"
+msgstr ""
+"Det gick inte att uppdatera prenumerationsstatus efter order #%1$s pausades: "
+"%2$s"
+
+#: includes/common/subscriptions-manager.php:189
+#, php-format
+msgid "Failed to cancel subscription after order #%1$s was cancelled: %2$s"
+msgstr ""
+"Det gick inte att avbryta prenumerationen efter order #%1$s avbröts: %2$s"
+
+#: includes/common/subscriptions-manager.php:207
+#, php-format
+msgid "Failed to set subscription as expired for order #%1$s: %2$s"
+msgstr ""
+"Det gick inte att ställa in prenumeration som utgången för order #%1$s: %2$s"
+
+#: includes/common/subscriptions-manager.php:225
+msgid "Subscription sign up failed."
+msgstr "Prenumerationsförsök misslyckades."
+
+#: includes/common/subscriptions-manager.php:233
+#, php-format
+msgid "Failed to process failed payment on subscription for order #%1$s: %2$s"
+msgstr ""
+"Det gick inte att bearbeta misslyckad betalning på prenumeration för order #"
+"%1$s: %2$s"
+
+#: includes/common/subscriptions-manager.php:287
+msgid "Error: Unable to create subscription. Please try again."
+msgstr "Fel: Kunde inte skapa prenumerationen. Var vänligen försök igen."
+
+#: includes/common/subscriptions-manager.php:304
+msgid "Error: Unable to add product to created subscription. Please try again."
+msgstr ""
+"Fel: Det går inte att lägga till produkten i skapad prenumeration. Var god "
+"försök igen."
+
+#: includes/common/subscriptions-manager.php:341
+msgid "Pending subscription created."
+msgstr "Väntande prenumeration skapad."
+
+#: includes/common/subscriptions-manager.php:599
+msgid "Failed"
+msgstr "Misslyckad"
+
+#: includes/common/subscriptions-manager.php:603
+msgid "On-hold"
+msgstr "Placerad i kö"
+
+#: includes/common/subscriptions-manager.php:688
+#, php-format
+msgid "%1$s-%2$s"
+msgstr "%1$s-%2$s"
+
+#: includes/common/subscriptions-manager.php:700
+#, php-format
+msgid "%1$s%2$s, %3$s @ %4$s : %5$s"
+msgstr "%1$s%2$s, %3$s @ %4$s : %5$s"
+
+#: includes/common/subscriptions-manager.php:702
+#, php-format
+msgid "%1$s%2$s, %3$s"
+msgstr "%1$s%2$s, %3$s"
+
+#: includes/common/subscriptions-manager.php:707
+msgid "Change"
+msgstr "Växel"
+
+#: includes/common/subscriptions-manager.php:772
+#, php-format
+msgid "Failed sign-up for subscription %s."
+msgstr "Prenumerationsförsök misslyckades  %s."
+
+#: includes/common/subscriptions-order.php:351
+msgid "Original"
+msgstr "Original"
+
+#: includes/common/subscriptions-order.php:352
+msgid "Subscription Parent"
+msgstr "Förälder prenumeration"
+
+#: includes/common/subscriptions-order.php:353
+msgid "Subscription Renewal"
+msgstr "Prenumerationsförnyelse"
+
+#: includes/common/subscriptions-order.php:354
+msgid "Subscription Resubscribe"
+msgstr "Omstartad prenumeration"
+
+#: includes/common/subscriptions-order.php:355
+msgid "Subscription Switch"
+msgstr "Prenumerationsändring"
+
+#: includes/common/subscriptions-order.php:356
+msgid "Non-subscription"
+msgstr "Ingen prenumeration"
+
+#: includes/common/subscriptions-order.php:474
+#, php-format
+msgid "Subscription cancelled for refunded order %1$s#%2$s%3$s."
+msgstr "Prenumerationen avbruten för återbetald order %1$s#%2$s%3$s."
+
+#: includes/common/subscriptions-renewal-order.php:93
+#, php-format
+msgid "#%s"
+msgstr "#%s"
+
+#: includes/common/subscriptions-renewal-order.php:94
+#, php-format
+msgid "Order %s created to record renewal."
+msgstr "Order %s skapades för att spara förnyelse."
+
+#: includes/common/subscriptions-renewal-order.php:109
+msgid "Subscription renewal orders cannot be cancelled."
+msgstr "Prenumerationsförnyelser kan inte avbrytas."
+
+#: includes/common/user-change-status-handler.php:38
+msgid "Subscription reactivated by the subscriber from their account page."
+msgstr "Prenumerationen är avbruten av abonnenten från sin konto sida."
+
+#: includes/common/user-change-status-handler.php:39
+msgid "Your subscription has been reactivated."
+msgstr "Din prenumeration har återaktiverats."
+
+#: includes/common/user-change-status-handler.php:42
+msgid ""
+"You can not reactivate that subscription until paying to renew it. Please "
+"contact us if you need assistance."
+msgstr ""
+"Du kan inte återaktivera den prenumerationen förrän du har betalat för en ny "
+"period. Vänligen kontakta oss om du behöver mer hjälp."
+
+#: includes/common/user-change-status-handler.php:48
+msgid "Subscription put on hold by the subscriber from their account page."
+msgstr "Abonnemang har pausats av abonnenten från sin konto sida."
+
+#: includes/common/user-change-status-handler.php:49
+msgid "Your subscription has been put on hold."
+msgstr "Din prenumeration har pausats."
+
+#: includes/common/user-change-status-handler.php:52
+msgid ""
+"You can not suspend that subscription - the suspension limit has been "
+"reached. Please contact us if you need assistance."
+msgstr ""
+"Du kan inte pausa den här prenumerationen - gränsen för antalet gånger "
+"prenumerationen kan pausas har nåtts. Kontakta oss om du behöver närmare "
+"hjälp."
+
+#: includes/common/user-change-status-handler.php:57
+msgid "Subscription cancelled by the subscriber from their account page."
+msgstr "Prenumerationen är avbruten av abonnenten från sin konto sida."
+
+#: includes/common/user-change-status-handler.php:58
+msgid "Your subscription has been cancelled."
+msgstr "Din prenumeration har avslutats."
+
+#: includes/common/user-change-status-handler.php:72
+msgid ""
+"That subscription does not exist. Please contact us if you need assistance."
+msgstr "Denna prenumeration existerar inte. Kontakta oss om du behöver hjälp."
+
+#: includes/common/user-change-status-handler.php:84
+#, php-format
+msgid ""
+"That subscription can not be changed to %s. Please contact us if you need "
+"assistance."
+msgstr ""
+"Den prenumerationen kan inte ändras till %s. Vänligen kontakta oss om du "
+"behöver närmare hjälp."
+
+#: includes/compatibility-functions.php:102
+#, php-format
+msgid ""
+"Could not get subscription. Most likely the subscription key does not refer "
+"to a subscription. The key was: \"%s\"."
+msgstr ""
+"Det gick inte att hämta prenumeration. Troligtvis hänvisar inte "
+"prenumerationsnyckeln till en prenumeration. Nyckeln var: \"%s\"."
+
+#: includes/components/subscription.php:285
+#, php-format
+msgid "Unable to change subscription status to \"%s\"."
+msgstr "Det går inte att ändra prenumerations status till \"%s\"."
+
+#: includes/components/subscription.php:359
+#, php-format
+msgid "Unable to change subscription status to \"%s\". Exception: %s"
+msgstr ""
+"Det går inte att ändra prenumerationens status till \"%s\". Undantag: %s"
+
+#: includes/components/subscription.php:373
+#, php-format
+msgid "Status changed from %1$s to %2$s."
+msgstr "Statusen ändrades från %1$s till %2$s."
+
+#: includes/components/subscription.php:378
+#, php-format
+msgid "Status set to %s."
+msgstr "Status inställd till %s."
+
+#: includes/components/subscription.php:717 includes/date-time-functions.php:14
+#, php-format
+msgid "In %s"
+msgstr "Om %s"
+
+#: includes/components/subscription.php:719 includes/date-time-functions.php:16
+#, php-format
+msgid "%s ago"
+msgstr "%s sedan"
+
+#: includes/components/subscription.php:726
+msgid "Not yet ended"
+msgstr "Ännu ej avslutad"
+
+#: includes/components/subscription.php:729
+msgid "Not cancelled"
+msgstr "Ej avslutad"
+
+#: includes/components/subscription.php:733
+msgid "-"
+msgstr "-"
+
+#: includes/components/subscription.php:819
+msgid "The start date of a subscription can not be deleted, only updated."
+msgstr ""
+"Startdatumet för en prenumeration kan inte tas bort, endast uppdateras."
+
+#: includes/components/subscription.php:823
+#, php-format
+msgid ""
+"The %s date of a subscription can not be deleted. You must delete the order."
+msgstr ""
+"%sdatum för ett abonnemang kan inte tas bort. Du måste ta bort beställningen."
+
+#: includes/components/subscription.php:1090
+msgid "Sign-up complete."
+msgstr "Registreringen är klar"
+
+#: includes/components/subscription.php:1092
+msgid "Payment received."
+msgstr "Betalning mottagen."
+
+#: includes/components/subscription.php:1114
+msgid "Payment failed."
+msgstr "Betalningen misslyckades."
+
+#: includes/components/subscription.php:1118
+msgid "Subscription Cancelled: maximum number of failed payments reached."
+msgstr ""
+"Prenumeration avbruten: maximalt antal misslyckade betalningar har uppnåtts."
+
+#: includes/components/subscription.php:1247
+msgid "Manual Renewal"
+msgstr "Manuell förnyelse"
+
+#: includes/components/subscription.php:1299
+msgid "Payment method meta must be an array."
+msgstr "Betalningssätt meta måste vara en array."
+
+#: includes/components/subscription.php:1389
+msgid "Invalid format. First parameter needs to be an array."
+msgstr "Ogiltigt format. Första parametern måste vara en array."
+
+#: includes/components/subscription.php:1393
+msgid "Invalid data. First parameter was empty when passed to update_dates()."
+msgstr ""
+"Ogiltiga data. Första parametern var tomt när skickas till update_dates()."
+
+#: includes/components/subscription.php:1400
+msgid ""
+"Invalid data. First parameter has a date that is not in the registered date "
+"types."
+msgstr ""
+"Ogiltiga data. Första parametern har ett datum som inte finns i registrerade "
+"datum typer."
+
+#: includes/components/subscription.php:1419
+#, php-format
+msgid "Invalid %s date. The date must be of the format: \"Y-m-d H:i:s\"."
+msgstr "Ogiltigt %s datum. Datumet måste vara av formatet: \"Y-m-d H:i:s\"."
+
+#: includes/components/subscription.php:1449
+#, php-format
+msgid "The %s date must occur after the cancellation date."
+msgstr "Datumet för%s måste inträffa efter avbokningsdatumet."
+
+#: includes/components/subscription.php:1454
+#, php-format
+msgid "The %s date must occur after the last payment date."
+msgstr "%s måste infalla efter den sista betalningsdagen."
+
+#: includes/components/subscription.php:1457
+#, php-format
+msgid "The %s date must occur after the next payment date."
+msgstr "%s måste infalla efter nästa betalningsdatum."
+
+#: includes/date-time-functions.php:58
+msgid "Never expire"
+msgstr "Upphör aldrig"
+
+#: includes/date-time-functions.php:63
+msgid "1 day"
+msgstr "En dag"
+
+#: includes/date-time-functions.php:67
+msgid "1 week"
+msgstr "1 vecka"
+
+#: includes/date-time-functions.php:71
+msgid "1 month"
+msgstr "1 månad"
+
+#: includes/date-time-functions.php:75
+msgid "1 year"
+msgstr "1 år"
+
+#: includes/date-time-functions.php:112
+msgid "every"
+msgstr "varje"
+
+#: includes/date-time-functions.php:115 includes/subscriptions-product.php:183
+#, php-format
+msgid "every %s"
+msgstr "varje %s"
+
+#: includes/date-time-functions.php:148
+msgid "no"
+msgstr "nej"
+
+#: includes/frontend-loader/subscription-account-view.php:65
+#, php-format
+msgid "Subscription #%s"
+msgstr "Prenumeration #%s"
+
+#: includes/frontend-loader/subscriptions-addresses.php:22
+msgid "Change Address"
+msgstr "Ändra adress"
+
+#: includes/frontend-loader/subscriptions-addresses.php:43
+#, php-format
+msgid "Update the %1$s used for all of my active subscriptions"
+msgstr "Uppdatera %1$s används för alla mina aktiva prenumerationer"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:81
+msgid "Published"
+msgstr "Publicerad"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:81
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:180
+msgid "Complete"
+msgstr "Genomförd"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:119
+msgid "Hook"
+msgstr "Krok"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:121
+msgid "Arguments"
+msgstr "Argument"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:122
+msgid "Group"
+msgstr "Grupp"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:123
+msgid "Recurrence"
+msgstr "Återfall"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:124
+msgid "Scheduled Date"
+msgstr "Schemalagd datum"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:129
+msgid "Started"
+msgstr "Startat"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:131
+msgid "Completed"
+msgstr "Genomförd"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:135
+msgid "Claim ID"
+msgstr "Anspråks-ID"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:136
+msgid "Log"
+msgstr "Logg"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:197
+msgid "Non-repeating"
+msgstr "Icke-upprepa"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:203
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:212
+#, php-format
+msgid " (%s ago)"
+msgstr "%s sedan"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:244
+msgid "Process the action now as if it were run as part of a queue"
+msgstr "Bearbeta åtgärden nu som om den kördes som en del av en kö"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:244
+msgid "Run"
+msgstr "Aktivera"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:322
+#, php-format
+msgid ""
+"Maximum simulatenous batches already in progress (%s queues). No actions "
+"will be processed until the current batches are complete."
+msgstr ""
+"Maximala simulata satser som redan pågår (%s köer). Inga åtgärder kommer att "
+"behandlas förrän de nuvarande partierna är färdiga."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:331
+#, php-format
+msgid "Successfully executed the action: %s"
+msgstr "Genomfört åtgärden framgångsrikt:%s"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:335
+#, php-format
+msgid "Could not execute the action: %s"
+msgstr "Kunde inte utföra åtgärden:%s"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:367
+msgid "Now!"
+msgstr "Nu!"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:454
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:457
+msgid "Action updated."
+msgstr "Åtgärd uppdaterad."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:458
+#, php-format
+msgid "Action restored to revision from %s"
+msgstr "återställd till revidering från %s"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:459
+msgid "Action scheduled."
+msgstr "Åtgärd planerad."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:460
+msgid "Action saved."
+msgstr "Åtgärd sparad."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:461
+msgid "Action submitted."
+msgstr "Handling inlämnad."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:462
+#, php-format
+msgid "Action scheduled for: <strong>%1$s</strong>"
+msgstr "Åtgärd planerad till: <strong>%1$s</strong>"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:463
+msgid "Action draft updated."
+msgstr "Handlingsutkast uppdaterat."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_QueueRunner.php:138
+msgid "Every minute"
+msgstr "Varje minut"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:248
+msgid "action created"
+msgstr "åtgärd skapad"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:252
+msgid "action canceled"
+msgstr "Åtgärd avbruten"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:256
+msgid "action started"
+msgstr "åtgärd startade"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:260
+msgid "action complete"
+msgstr "åtgärden komplett"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:264
+#, php-format
+msgid "action failed: %s"
+msgstr "åtgärden misslyckades:%s"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:268
+#, php-format
+msgid "action timed out after %s seconds"
+msgstr "åtgärden avbröts efter%s sekunder"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:273
+#, php-format
+msgid "unexpected shutdown: PHP Fatal error %s in %s on line %s"
+msgstr "oväntad avstängning: PHP Felaktigt fel%s i%s på rad%s"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:278
+msgid "action reset"
+msgstr "åtgärdsreset"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:25
+#, php-format
+msgid "Error saving action: %s"
+msgstr "Fel vid lagring av åtgärd:%s"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:44
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:53
+msgid "Invalid schedule. Cannot save action."
+msgstr "Ogiltigt schema. Kan inte spara åtgärd."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:69
+msgid "Unable to save action."
+msgstr "Det går inte att spara åtgärd."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:319
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:328
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:354
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:489
+#, php-format
+msgid "Unidentified action %s"
+msgstr "Oidentifierad åtgärd%s"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:410
+msgid "Unable to claim actions. Database error."
+msgstr "Det går inte att göra anspråk på åtgärder. Databas fel."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:440
+#, php-format
+msgid "Unable to unlock claim %s. Database error."
+msgstr "Det gick inte att låsa upp krav%s. Databas fel."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:456
+#, php-format
+msgid "Unable to unlock claim on action %s. Database error."
+msgstr "Det gick inte att låsa upp fordran på åtgärd%s. Databas fel."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:467
+#, php-format
+msgid "Unable to mark failure on action %s. Database error."
+msgstr "Det går inte att markera fel på åtgärd%s. Databas fel."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:21
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:32
+msgid "Scheduled Actions"
+msgstr "Planerade åtgärder"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:22
+msgid "Scheduled actions are hooks triggered on a cetain date and time."
+msgstr ""
+"Schemalagda åtgärder är krokar utlösna på ett datum och tidpunkt för cetain."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:33
+msgid "Scheduled Action"
+msgstr "Planerad åtgärd"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:35
+msgid "Add"
+msgstr "Lägg till"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:36
+msgid "Add New Scheduled Action"
+msgstr "Lägg till ny planerad åtgärd"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:37
+#: xa-woocommerce-subscriptions.php:155
+msgid "Edit"
+msgstr "Redigera"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:38
+msgid "Edit Scheduled Action"
+msgstr "Redigera planerad åtgärd"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:39
+msgid "New Scheduled Action"
+msgstr "Ny planerad åtgärd"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:40
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:41
+msgid "View Action"
+msgstr "Visa åtgärd"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:42
+msgid "Search Scheduled Actions"
+msgstr "Sök planerade åtgärder"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:43
+msgid "No actions found"
+msgstr "Inga åtgärder hittades"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:44
+msgid "No actions found in trash"
+msgstr "Inga åtgärder hittades i papperskorgen"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_TaxonomyRegistrar.php:16
+msgid "Action Group"
+msgstr "Aktionsgruppen"
+
+#: includes/order-functions.php:85
+msgid "Invalid data. Orders expected aren't orders."
+msgstr "Ogiltiga data. Förväntade ordrar är inte av typ order."
+
+#: includes/order-functions.php:89
+msgid "Invalid data. Type of copy is not a string."
+msgstr "Ogiltiga data. Typ av kopia är inte en sträng."
+
+#: includes/order-functions.php:240
+msgid "$type passed to the function was not a string."
+msgstr "$type skickas till funktionen var inte en sträng."
+
+#: includes/order-functions.php:244
+#, php-format
+msgid "\"%s\" is not a valid new order type."
+msgstr "\"%s\" är inte en giltig ny ordertyp."
+
+#: includes/order-functions.php:394
+msgid "Invalid data. No valid subscription / order was passed in."
+msgstr "Ogiltiga data. Ingen giltig prenumeration / order skickades in."
+
+#: includes/order-functions.php:398
+msgid "Invalid data. No valid item id was passed in."
+msgstr "Ogiltiga data. Inget giltigt id skickades in."
+
+#: includes/payment-gateways.php:83
+msgid ""
+"Sorry, it seems there are no available payment methods which support "
+"subscriptions. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+"Det verkar inte finnas några betalningssätt som stöder prenumerationer. "
+"Vänligen kontakta oss om du behöver hjälp eller önskar få andra alternativ."
+
+#: includes/price-functions.php:12
+msgid "up front"
+msgstr "direkt"
+
+#: includes/price-functions.php:52
+#, php-format
+msgid "%1$s %2$s then %3$s"
+msgstr "%1$s %2$s därefter %3$s"
+
+#: includes/price-functions.php:65
+#, php-format
+msgid "%1$s every %2$s"
+msgstr "%1$s varje %2$s"
+
+#: includes/price-functions.php:72 includes/subscriptions-product.php:187
+#, php-format
+msgid "%1$s for %2$s"
+msgstr "%1$s för %2$s"
+
+#: includes/price-functions.php:78
+#, php-format
+msgid "%1$s after %2$s free trial"
+msgstr "%1$s efter %2$s provperiod"
+
+#: includes/price-functions.php:80
+#, php-format
+msgid "%1$s free trial then %2$s"
+msgstr "%1$s prövoperiod, därefter %2$s"
+
+#: includes/subscription-cart-functions.php:53
+#: includes/subscription-cart-functions.php:54
+#, php-format
+msgid "Shipping via %s"
+msgstr "Frakt via %s"
+
+#: includes/subscription-cart-functions.php:138
+msgid "Free"
+msgstr "Gratis"
+
+#: includes/subscription-cart-functions.php:165
+msgid "Free shipping coupon"
+msgstr "Rabattkupong som ger fri frakt"
+
+#: includes/subscription-cart-functions.php:193
+#, php-format
+msgid "(Includes %s)"
+msgstr "(inkl. %s)"
+
+#: includes/subscription-cart-functions.php:236
+#, php-format
+msgid "First renewal date: %s"
+msgstr "Första förnyelse: %s"
+
+#: includes/subscriptions-coupon.php:29
+msgid "Recurring Product Discount"
+msgstr "Återkommande produktrabatt"
+
+#: includes/subscriptions-coupon.php:30
+msgid "Recurring Product % Discount"
+msgstr "Återkommande produkt % rabatt"
+
+#: includes/subscriptions-coupon.php:145
+msgid ""
+"Sorry, this coupon is only valid for an initial payment and the cart does "
+"not require an initial payment."
+msgstr ""
+"Denna rabattkod gäller endast startavgift, och ingen produkt i varukorgen "
+"har en startavgift."
+
+#: includes/subscriptions-coupon.php:150
+msgid "Sorry, this coupon is only valid for new subscriptions."
+msgstr "Denna rabattkod är endast giltig för nya prenumerationer."
+
+#: includes/subscriptions-coupon.php:154
+msgid "Sorry, this coupon is only valid for subscription products."
+msgstr "Denna kupong är endast giltig för prenumerationer."
+
+#: includes/subscriptions-coupon.php:158
+#, php-format
+msgid "Sorry, the \"%1$s\" coupon is only valid for renewals."
+msgstr ""
+"Tyvärr gäller rabattkoden ”%1$s” endast för förnyelse av prenumeration."
+
+#: includes/subscriptions-coupon.php:310
+#, php-format
+msgid "Renewal % discount"
+msgstr "Renewal % discount"
+
+#: includes/subscriptions-coupon.php:311
+msgid "Renewal product discount"
+msgstr "Förnyelseproduktrabatt"
+
+#: includes/subscriptions-coupon.php:312
+msgid "Renewal cart discount"
+msgstr "Rabatt på varukorg vid förnyelse"
+
+#: includes/subscriptions-coupon.php:320
+msgid "Renewal Discount"
+msgstr "Förnyelserabatt"
+
+#: includes/user-functions.php:196
+msgid "Resubscribe"
+msgstr "Återuppta prenumerationen"
+
+#: templates/cart/cart-recurring-shipping.php:14
+msgid "Recurring shipping options can be selected on checkout."
+msgstr "Återkommande leveransalternativ kan väljas i kassan."
+
+#: templates/cart/cart-recurring-shipping.php:28
+msgid "Shipping costs will be calculated once you have provided your address."
+msgstr "Fraktkostnad beräknas när du har angivit din adress."
+
+#: templates/cart/cart-recurring-shipping.php:30
+msgid ""
+"There are no shipping methods available. Please double check your address, "
+"or contact us if you need any help."
+msgstr ""
+"Det finns inga fraktsätt tillgängliga. Vänligen kontrollera din adress, "
+"eller kontakta oss om du behöver hjälp."
+
+#: templates/emails/customer-renewal-invoice.php:13
+#, php-format
+msgid ""
+"An invoice has been created for you to renew your subscription with %1$s. To "
+"pay for this invoice please use the following link: %2$s"
+msgstr ""
+"En order har skapats åt dig så att du kan förnya din prenumeration med %1$s. "
+"För att betala fakturan, använd denna länk: %2$s"
+
+#: templates/emails/customer-renewal-invoice.php:18
+#, php-format
+msgid ""
+"The automatic payment to renew your subscription with %1$s has failed. To "
+"reactivate the subscription, please login and pay for the renewal from your "
+"account page: %2$s"
+msgstr ""
+"Den automatiska förnyelsen av din prenumeration med %1$s gick inte igenom. "
+"För att återaktivera prenumerationen, vänligen logga in och betala för "
+"förnyelsen från din kontosida: %2$s"
+
+#: templates/emails/plain/admin-new-renewal-order.php:8
+#, php-format
+msgid ""
+"You have received a subscription renewal order from %1$s. Their order is as "
+"follows:"
+msgstr "En automatisk prenumerationsförnyelse har genomförts (%1$s):"
+
+#: templates/emails/plain/cancelled-subscription.php:8
+#, php-format
+msgid ""
+"A subscription belonging to %1$s has been cancelled. Their subscription's "
+"details are as follows:"
+msgstr "Ett prenumeration som tillhör %1$s har avbrutits. Detaljer:"
+
+#: templates/emails/plain/cancelled-subscription.php:19
+#: templates/emails/plain/expired-subscription.php:19
+#, php-format
+msgid "Last Order Date: %s"
+msgstr "Senast beställd: %s"
+
+#: templates/emails/plain/cancelled-subscription.php:25
+#, php-format
+msgid "End of Prepaid Term: %s"
+msgstr "Den förbetalda periodens slut: %s"
+
+#: templates/emails/plain/cancelled-subscription.php:30
+#: templates/emails/plain/expired-subscription.php:30
+#: templates/emails/plain/on-hold-subscription.php:26
+#: templates/emails/plain/subscription-info.php:11
+#, php-format
+msgid "View Subscription: %s"
+msgstr "Visa prenumeration: %s"
+
+#: templates/emails/plain/customer-completed-renewal-order.php:8
+#, php-format
+msgid ""
+"Hi there. Your subscription renewal order with %s has been completed. Your "
+"order details are shown below for your reference:"
+msgstr ""
+"Hej! Din prenumerationsförnyelse på %s är genomförd. Beställningsbekräftelse:"
+
+#: templates/emails/plain/customer-processing-renewal-order.php:8
+msgid ""
+"Your subscription renewal order has been received and is now being "
+"processed. Your order details are shown below for your reference:"
+msgstr ""
+"Din prenumeration har förnyats. Förnyelse sker automatiskt fram till dess "
+"att prenumerationstiden är slut. Beställningsinformation bifogas som "
+"referens:"
+
+#: templates/emails/plain/email-order-details.php:9
+#, php-format
+msgid "Order number: %s"
+msgstr "Ordernummer: %s"
+
+#: templates/emails/plain/email-order-details.php:10
+#, php-format
+msgid "Order date: %s"
+msgstr "Orderdatum: %s"
+
+#: templates/emails/plain/email-order-details.php:12
+#, php-format
+msgid "Subscription Number: %s"
+msgstr "Prenumerationsnummer: %s"
+
+#: templates/emails/plain/expired-subscription.php:8
+#, php-format
+msgid ""
+"A subscription belonging to %1$s has expired. Their subscription's details "
+"are as follows:"
+msgstr ""
+"Ett prenumeration tillhörande %1$s har upphört. Detaljer är som följer:"
+
+#: templates/emails/plain/expired-subscription.php:25
+#: templates/emails/plain/subscription-info.php:15
+#, php-format
+msgid "End Date: %s"
+msgstr "Slutdatum: %s"
+
+#: templates/emails/plain/on-hold-subscription.php:8
+#, php-format
+msgid ""
+"A subscription belonging to %1$s has been suspended by the user. Their "
+"subscription's details are as follows:"
+msgstr ""
+"En prenumeration som tillhör %1$s har avbrutits av användaren. Detaljer är "
+"som följer:"
+
+#: templates/emails/plain/on-hold-subscription.php:19
+#, php-format
+msgid "Last Order: %s"
+msgstr "Senast beställd: %s"
+
+#: templates/emails/plain/on-hold-subscription.php:22
+#, php-format
+msgid "Date Suspended: %s"
+msgstr "Avslutat datum: %s"
+
+#: templates/emails/plain/subscription-info.php:8
+msgid "Subscription Information:"
+msgstr "Prenumerationsinformation:"
+
+#: templates/emails/plain/subscription-info.php:10
+#, php-format
+msgid "Subscription: %s"
+msgstr "Prenumeration: %s"
+
+#: templates/emails/plain/subscription-info.php:12
+#, php-format
+msgid "Start Date: %s"
+msgstr "Startdatum: %s"
+
+#: templates/emails/plain/subscription-info.php:14
+msgid "When Cancelled"
+msgstr "Vid avslutande"
+
+#: templates/emails/plain/subscription-info.php:16
+#, php-format
+msgid "Price: %s"
+msgstr "Pris: %s"
+
+#: templates/myaccount/subscriptions.php:22
+msgid "Subscription ID"
+msgstr "Abonnemangs ID"
+
+#: templates/myaccount/subscriptions.php:24
+msgid "Next Payment on"
+msgstr "Nästa betalning"
+
+#: templates/myaccount/view-subscription.php:30
+msgid "Next Payment Date"
+msgstr "Nästa betalningsdatum"
+
+#: templates/single-product/add-to-cart/variable-subscription.php:36
+msgid "Clear"
+msgstr "Klar"
+
+#: templates/subscription/product-price-fields.php:11
+msgid "Choose the subscription price, billing interval and billing period."
+msgstr "Väl prenumerationspriset, faktureringsintervall och period."
+
+#: templates/subscription/product-price-fields.php:42
+msgid "Subscription length"
+msgstr "Prenumerationslängd"
+
+#: templates/subscription/product-price-fields.php:45
+msgid "Automatically expire the subscription after this length of time."
+msgstr "Upphör automatiskt prenumerationen efter denna tid."
+
+#: templates/subscription/variation-price-fields.php:34
+msgid ""
+"Automatically expire the subscription after this length of time. This length "
+"is in addition to any free trial or amount of time provided before a "
+"synchronised first renewal date."
+msgstr ""
+"Låt prenumerationen gå ut automatiskt efter denna tidslängd. Längden är "
+"utöver eventuell gratis testperiod eller tid innan ett synkroniserat första "
+"fönyelsedatum."
+
+#: xa-woocommerce-subscriptions.php:48
+msgid "HF Subscription Plugin not activated. WooCommerce is required."
+msgstr "HF-prenumerationsprogrammet är inte aktiverat. WooCommerce krävs."
+
+#: xa-woocommerce-subscriptions.php:153
+msgid "Add Subscription"
+msgstr "Lägg till prenumeration"
+
+#: xa-woocommerce-subscriptions.php:154
+msgid "Add New Subscription"
+msgstr "Lägg till ny prenumeration"
+
+#: xa-woocommerce-subscriptions.php:156
+msgid "Edit Subscription"
+msgstr "Ändra prenumeration"
+
+#: xa-woocommerce-subscriptions.php:157
+msgid "New Subscription"
+msgstr "Ny prenumeration"
+
+#: xa-woocommerce-subscriptions.php:158 xa-woocommerce-subscriptions.php:159
+msgid "View Subscription"
+msgstr "Visa prenumeration"
+
+#: xa-woocommerce-subscriptions.php:160
+msgid "Search Subscriptions"
+msgstr "Sök Efter Prenumerationer"
+
+#: xa-woocommerce-subscriptions.php:162
+msgid "No Subscriptions found in trash"
+msgstr "Ingen prenumeration hittades i papperskorgen"
+
+#: xa-woocommerce-subscriptions.php:163
+msgid "Parent Subscriptions"
+msgstr "Överliggande prenumerationer"
+
+#: xa-woocommerce-subscriptions.php:166
+msgid "This is where subscriptions are stored."
+msgstr "Här lagras prenumerationer"
+
+#: xa-woocommerce-subscriptions.php:196
+msgid "No Subscriptions found"
+msgstr "Inga prenumerationer hittades."
+
+#: xa-woocommerce-subscriptions.php:198
+msgid "Subscriptions will appear here once purchased by a customer."
+msgstr "Prenumerationer visas här en gång köpts av en kund."
+
+#: xa-woocommerce-subscriptions.php:199
+#, php-format
+msgid "%sMore about managing subscriptions &raquo;%s"
+msgstr "%sMER om hantering av prenumerationer» %s"
+
+#: xa-woocommerce-subscriptions.php:200
+#, php-format
+msgid "%sAdd a subscription product &raquo;%s"
+msgstr "%sLägg till en prenumerationsprodukt &raquo;%s"
+
+#: xa-woocommerce-subscriptions.php:277
+msgid ""
+"A subscription renewal has been removed from your cart. Multiple "
+"subscriptions can not be purchased at the same time."
+msgstr ""
+"En prenumerationsförnyelse har tagits bort från din korg. Flera "
+"prenumerationer kan inte köpas samtidigt."
+
+#: xa-woocommerce-subscriptions.php:282
+msgid ""
+"A subscription has been removed from your cart. Due to payment gateway "
+"restrictions, different subscription products can not be purchased at the "
+"same time."
+msgstr ""
+"En prenumeration har tagits bort från din varukorg. På grund av "
+"begränsningar hos betalningsportalen, kan köp av flera olika prenumerationer "
+"inte göras vid samma tillfälle."
+
+#: xa-woocommerce-subscriptions.php:287
+msgid ""
+"A subscription has been removed from your cart. Products and subscriptions "
+"can not be purchased at the same time."
+msgstr ""
+"En prenumeration har tagits bort från din varukorg. Engångsköp och "
+"prenumerationer kan inte göras samtidigt."
+
+#: xa-woocommerce-subscriptions.php:355 xa-woocommerce-subscriptions.php:368
+#, php-format
+msgid "%sth"
+msgstr "%se"
+
+#: xa-woocommerce-subscriptions.php:359
+#, php-format
+msgid "%sst"
+msgstr "%sst"
+
+#: xa-woocommerce-subscriptions.php:362
+#, php-format
+msgid "%snd"
+msgstr "%snd"
+
+#: xa-woocommerce-subscriptions.php:365
+#, php-format
+msgid "%srd"
+msgstr "%sje"
+
+#: xa-woocommerce-subscriptions.php:383
+msgid "Variable Subscription"
+msgstr "Variabel Prenumeration"
+
+#: xa-woocommerce-subscriptions.php:500
+msgid "Settings"
+msgstr "Inställningar"
+
+#: xa-woocommerce-subscriptions.php:501
+msgid "Support"
+msgstr "Support"
+
+#: xa-woocommerce-subscriptions.php:502
+msgid "Review"
+msgstr "Läs mer"
